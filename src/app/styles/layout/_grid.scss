@@ -9,17 +9,4 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
-  
-  // src/styles/components/_buttons.scss
-  .btn {
-    @extend %base-button; // Using Sass placeholders for shared styles
-  
-    &-primary {
-      background-color: blue;
-    }
-  }
-  
-  // src/styles/state/_is-active.scss
-  .is-active {
-    border-left: 3px solid green;
-  }
+ 
