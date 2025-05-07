@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   sassOptions: {
     includePaths: [require('path').join(__dirname, 'src/styles')],
+    prependData: `@import "variables";`, // Global Sass vars
   },
 };
 
