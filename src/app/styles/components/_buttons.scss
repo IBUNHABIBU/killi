@@ -1,0 +1,8 @@
+ // src/styles/components/_buttons.scss
+ .btn {
+    @extend %base-button; // Using Sass placeholders for shared styles
+  
+    &-primary {
+      background-color: blue;
+    }
+  }
