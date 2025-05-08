@@ -1,0 +1,59 @@
+// src/components/Navbar/Navbar.module.scss
+@use "../../styles/base/variables" as *;
+@use "../../styles/components/navigation-patterns" as nav;
+
+.navbar {
+  background-color: $color-nav-bg;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  &__container {
+    @include nav.nav-container;
+    height: 70px; // Fixed height for consistency
+  }
+
+  &__menu {
+    @include nav.nav-menu-horizontal;
+  }
+
+  &__link {
+    color: $color-nav-text;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $color-nav-hover;
+    }
+  }
+
+  // Mobile styles (hidden by default)
+  &__toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  // Mobile menu state
+  &.is-active {
+    .navbar__menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: $color-nav-bg;
+      padding: 1rem 2rem;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
