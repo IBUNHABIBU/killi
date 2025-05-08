@@ -5,11 +5,11 @@ import Link from 'next/link';
 const Navigation: React.FC = () => {
     const navItems = [
         { name: 'Home', path: '/' },
-        { name: 'Services', path: '/services' },
-        { name: 'About', path: '/about' },
-        { name: 'Team', path: '/team' },
-        { name: 'News', path: '/news' },
-        { name: 'Contact', path: '/contact' },
+        // { name: 'Services', path: '/services' },
+        // { name: 'About', path: '/about' },
+        // { name: 'Team', path: '/team' },
+        // { name: 'News', path: '/news' },
+        // { name: 'Contact', path: '/contact' },
       ];
 
   return (
