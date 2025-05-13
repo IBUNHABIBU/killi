@@ -1,0 +1,31 @@
+// @use '../../styles/utilities/variables' as *;
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+
+  &.primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: darken($color-primary, 10%);
+    }
+  }
+
+  &.secondary {
+    background-color: transparent;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+}

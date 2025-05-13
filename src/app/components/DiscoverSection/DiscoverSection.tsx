@@ -1,0 +1,36 @@
+// src/app/components/DiscoverSection/DiscoverSection.tsx
+'use client';
+
+import Image from 'next/image';
+import styles from './DiscoverSection.module.scss';
+
+export const DiscoverSection = () => {
+  return (
+    <section className={styles.discoverSection}>
+      <div className={styles.container}>
+        {/* Left Content (Black Background) */}
+        <div className={styles.content}>
+          <h2 className={styles.title}>Discover Unlimited Beauty</h2>
+          <p className={styles.description}>
+            Meet different people, cultures, traditions and landscapes. Choose your next destination with us, we will take care of the rest.
+          </p>
+          <a href="#destinations" className={styles.button}>
+            Explore Destinations
+          </a>
+        </div>
+
+        {/* Right Image */}
+        <div className={styles.imageContainer}>
+          <Image
+            src="/images/culturemeeting.jpg"
+            alt="Beautiful landscape destination"
+            fill
+            className={styles.image}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
+          />
+        </div>
+      </div>
+    </section>
+  );
+};

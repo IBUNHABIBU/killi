@@ -1,0 +1,17 @@
+// src/styles/components/_navigation-patterns.scss
+@mixin nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  @mixin nav-menu-horizontal {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }

@@ -1,0 +1,127 @@
+// SpecialOffers.module.scss
+@use '../../styles/base/variables' as *;
+
+.specialOffers {
+  padding: 4rem 2rem;
+  background-color: #f5f9f8;
+}
+
+.header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.title {
+  color: $color-primary;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.subtitle {
+  color: $color-text;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.offersGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.offerCard {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: $color-primary;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.offerTitle {
+  color: $color-primary;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.offerDescription {
+  color: $color-text;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.pricing {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.currentPrice {
+  color: $color-primary;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.originalPrice {
+  color: #999;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.bookButton {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: $color-primary;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($color-primary, 10%);
+  }
+}

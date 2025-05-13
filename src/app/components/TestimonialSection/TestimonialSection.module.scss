@@ -1,0 +1,108 @@
+// TestimonialSection.module.scss
+@use '../../styles/base/variables' as *;
+
+.testimonialSection {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  gap: 2rem;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  order: 1;
+
+  @media (min-width: 992px) {
+    flex: 1;
+    height: 500px;
+    aspect-ratio: unset;
+  }
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.content {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 992px) {
+    flex: 1;
+    padding-left: 2rem;
+  }
+}
+
+.sectionTitle {
+  color: $color-primary;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.testimonial {
+  margin: 0;
+  padding: 0;
+  border-left: none;
+}
+
+.quote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: $color-text;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  position: relative;
+  padding-left: 2rem;
+
+  &::before {
+    content: '"';
+    font-size: 4rem;
+    color: rgba($color-primary, 0.2);
+    position: absolute;
+    left: -1rem;
+    top: -1.5rem;
+    line-height: 1;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+
+.author {
+  font-weight: 600;
+  color: $color-primary;
+  font-style: normal;
+  display: block;
+  margin-top: 1rem;
+}
