@@ -1,5 +1,5 @@
 @use '../../styles/base/variables' as *;
-// Navigation.module.scss
+@use 'sass:color';
 
 .navigation {
   position: fixed;
@@ -75,7 +75,7 @@
     }
 
     &[aria-current='page'] {
-      color: darken(#31805a, 15%);
+      color: color.adjust(#31805a, $lightness: 15%);
       
       &::after {
         content: '';
