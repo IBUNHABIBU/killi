@@ -1,4 +1,7 @@
 // app/components/Footer/Footer.module.scss
+@use '../../styles/base/variables' as *;
+@use 'sass:color';
+
 .footer {
   background-color: #2a3f54;
   color: white;
@@ -123,7 +126,7 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-    background-color: color.adjust($color-primary, $lightness: -10%);
+     background-color: color.adjust($color-primary, $lightness: -10%);
     }
   }
 }
