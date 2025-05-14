@@ -1,4 +1,5 @@
 @use '../../styles/base/variables' as *;
+@use "sass:color";
 
 .campingSection {
   padding: 4rem 0;
@@ -94,6 +95,6 @@
   align-self: flex-start;
 
   &:hover {
-    background-color: darken($color-primary, 10%);
+    background-color: color.adjust($color-primary, $lightness: -10%);
   }
 }
