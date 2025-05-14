@@ -1,4 +1,6 @@
 // Hero.module.scss
+@use 'sass:color';
+
 .hero {
   position: relative;
   height: 100vh;
@@ -89,6 +91,6 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken(#31805a, 10%);
+    background-color: color.adjust($color-primary, $lightness: -10%);
   }
 }
