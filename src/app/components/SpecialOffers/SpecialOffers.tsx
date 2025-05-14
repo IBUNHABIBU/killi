@@ -9,8 +9,8 @@ const specialOffers = [
     id: 1,
     title: 'Serengeti Safari Special',
     description: '3-day luxury camping safari with guided game drives',
-    price: '$899',
-    originalPrice: '$1299',
+    price: '20%',
+    originalPrice: 'OFF',
     image: '/images/jioni.jpg',
     expiry: 'Offer ends in 3 days'
   },
@@ -18,8 +18,8 @@ const specialOffers = [
     id: 2,
     title: 'Zanzibar Beach Escape',
     description: '5-day all-inclusive beach resort package',
-    price: '$749',
-    originalPrice: '$1099',
+    price: '20%',
+    originalPrice: 'OFF',
     image: '/images/uhurupeak.jpg',
     expiry: 'Limited availability'
   },
@@ -27,8 +27,8 @@ const specialOffers = [
     id: 3,
     title: 'Kilimanjaro Last-Minute',
     description: '7-day Machame route climb with expert guides',
-    price: '$1599',
-    originalPrice: '$1999',
+    price: '20%',
+    originalPrice: 'OFF',
     image: '/images/klimanjaro.jpg',
     expiry: 'Only 2 spots left'
   }
