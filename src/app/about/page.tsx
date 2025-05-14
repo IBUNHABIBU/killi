@@ -31,13 +31,13 @@ export default function AboutPage() {
           <div className={styles.content}>
             <h2>Who We Are</h2>
             <p>
-              Founded in 2010, Killihappy Adventures began as a small team of safari guides with a shared passion for Tanzania's 
+              Founded in 2010, Killihappy Adventures began as a small team of safari guides with a shared passion for Tanzania&apos;s 
               breathtaking landscapes and rich cultural heritage. What started as a humble operation has grown into a premier 
               adventure company, known for creating unforgettable experiences.
             </p>
             <p>
               Our name &quot;Killihappy&quot; comes from the Swahili word &quot;Kili&quot; (short for Kilimanjaro) and our mission to create 
-              happiness through travel. Every journey with us is designed to connect you deeply with Tanzania's natural wonders.
+              happiness through travel. Every journey with us is designed to connect you deeply with Tanzania&apos;s natural wonders.
             </p>
           </div>
           <div className={styles.imageWrapper}>
