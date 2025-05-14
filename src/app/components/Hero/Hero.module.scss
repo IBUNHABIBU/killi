@@ -1,5 +1,6 @@
 // Hero.module.scss
 @use 'sass:color';
+@use '../../styles/base/variables' as *;
 
 .hero {
   position: relative;
