@@ -25,9 +25,6 @@ export default function Home() {
       <TestimonialSection />
       <SpecialOffers />
       </main>
-      <footer className={styles.footer}>
-    Footer
-      </footer>
     </div>
   );
 }
