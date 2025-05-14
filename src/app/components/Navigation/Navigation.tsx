@@ -18,10 +18,10 @@ const Navigation = () => {
   ];
 
    const socialMedia = [
-    { icon: <FaFacebookF />, url: "https://facebook.com" },
-    { icon: <FaTwitter />, url: "https://twitter.com" },
-    { icon: <FaInstagram />, url: "https://instagram.com" },
-    { icon: <FaLinkedinIn />, url: "https://linkedin.com" },
+    { id: 1, icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61554214025733" },
+    // { id: 2, icon: <FaTwitter />, url: "https://twitter.com" },
+    { id: 3, icon: <FaInstagram />, url: "https://www.instagram.com/kilihappy_tanzania_adventures/" },
+    // { id: 4, icon: <FaLinkedinIn />, url: "https://linkedin.com" },
     // Add more as needed
   ];
 
@@ -69,8 +69,8 @@ const Navigation = () => {
         <div className={styles.navigation__social}>
           {socialMedia.map((platform) => (
             <a 
-              key={platform}
-              href={`https://${platform}.com`}
+              key={platform.id}
+              href={platform.url}
               className={styles.navigation__socialLink}
               target="_blank"
               rel="noopener noreferrer"
