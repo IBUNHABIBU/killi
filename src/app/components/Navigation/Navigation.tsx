@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './Navigation.module.scss';
-import { FaBars, FaFacebookF, FaInstagram, FaLinkedinIn, FaTimes, FaTwitter } from 'react-icons/fa';
+import { FaBars, FaFacebookF, FaInstagram, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -19,11 +19,8 @@ const Navigation = () => {
 
    const socialMedia = [
     { id: 1, icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61554214025733" },
-    // { id: 2, icon: <FaTwitter />, url: "https://twitter.com" },
     { id: 3, icon: <FaInstagram />, url: "https://www.instagram.com/kilihappy_tanzania_adventures/" },
-    // { id: 4, icon: <FaLinkedinIn />, url: "https://linkedin.com" },
-    // Add more as needed
-  ];
+    ];
 
   return (
     <nav className={styles.navigation}>
