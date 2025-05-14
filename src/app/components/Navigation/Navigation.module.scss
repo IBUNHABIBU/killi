@@ -71,7 +71,7 @@
     position: relative;
 
     &:hover {
-      color: darken(#31805a, 10%);
+      background-color: color.adjust(#31805a, $lightness: -10%);
     }
 
     &[aria-current='page'] {
