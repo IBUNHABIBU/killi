@@ -101,7 +101,7 @@ export default function AboutPage() {
               {
                 name: "Juma Mbeki",
                 role: "Founder & Head Guide",
-                image: "/images/ibunhabibu.jpg",
+                image: "/images/ibunhabibu.jpeg",
                 bio: "Born in Arusha, Juma has 20+ years of guiding experience across East Africa."
               },
               {
