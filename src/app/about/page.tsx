@@ -36,7 +36,7 @@ export default function AboutPage() {
               adventure company, known for creating unforgettable experiences.
             </p>
             <p>
-              Our name &quot;Killihappy&quot; comes from the Swahili word "Kili" (short for Kilimanjaro) and our mission to create 
+              Our name &quot;Killihappy&quot; comes from the Swahili word &quot;Kili&quot; (short for Kilimanjaro) and our mission to create 
               happiness through travel. Every journey with us is designed to connect you deeply with Tanzania's natural wonders.
             </p>
           </div>
