@@ -12,12 +12,11 @@ import { SpecialOffers } from "./components/SpecialOffers/SpecialOffers";
 export default function Home() {
   return (
     <div className={styles.page}>
-     <Head>
+      <Head>
         <title>Adventure Tourism | Explore the World</title>
         <meta name="description" content="Discover amazing adventures with our tourism services" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <main>
       <Hero />
       <CampingSection />
