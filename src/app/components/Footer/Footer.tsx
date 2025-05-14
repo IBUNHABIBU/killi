@@ -62,13 +62,13 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h3 className={styles.footerHeading}>Contact Us</h3>
           <address className={styles.contactInfo}>
-            <p>123 Safari Street</p>
+            <p>2560 Olasiti Street</p>
             <p>Arusha, Tanzania</p>
             <p>
-              <a href="tel:+255123456789">+255 123 456 789</a>
+              <a href="tel:+255123456789">+255 658 571 653</a>
             </p>
             <p>
-              <a href="mailto:info@killihappyadventures.com">info@killihappyadventures.com</a>
+              <a href="mailto:info@killihappyadventures.com">kilihappytanzaniaadventure@gmail.com</a>
             </p>
           </address>
         </div>
