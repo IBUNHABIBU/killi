@@ -24,8 +24,8 @@ export const TestimonialSection = () => {
           <h2 className={styles.sectionTitle}>What People Say</h2>
           <blockquote className={styles.testimonial}>
             <p className={styles.quote}>
-              "We booked our honeymoon with Kilihappy Adventures Tanzania and it was simply incredible. 
-              They took care of everything, even our packing list!"
+              &quot;We booked our honeymoon with Kilihappy Adventures Tanzania and it was simply incredible. 
+              They took care of everything, even our packing list!&quot;
             </p>
             <cite className={styles.author}>John Qin & Paul</cite>
           </blockquote>

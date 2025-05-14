@@ -14,7 +14,7 @@ export default function ContactPage() {
     <div className={styles.contactPage}>
       <section className={styles.hero}>
         <h1>Contact Our Safari Experts</h1>
-        <p>We're here to help you plan your perfect Tanzanian adventure</p>
+        <p>We&apos;re here to help you plan your perfect Tanzanian adventure</p>
       </section>
 
       <div className={styles.contactContainer}>

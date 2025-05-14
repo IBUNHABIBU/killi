@@ -1,7 +1,5 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import Head from "next/head";
-import Navigation from "./components/Navigation/Navigation";
 import { Hero } from "./components/Hero/Hero";
 import { CampingSection } from "./components/CampingSection/CampingSection";
 import { DiscoverSection } from "./components/DiscoverSection/DiscoverSection";
