@@ -1,5 +1,6 @@
 // SpecialOffers.module.scss
 @use '../../styles/base/variables' as *;
+@use 'sass:color';
 
 .specialOffers {
   padding: 4rem 2rem;
@@ -122,6 +123,6 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken($color-primary, 10%);
+    background-color: color.adjust($color-primary, $lightness: 10%);
   }
 }

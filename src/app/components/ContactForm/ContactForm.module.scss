@@ -1,4 +1,7 @@
 // app/components/ContactForm.module.scss
+@use '../../styles/base/variables' as *;
+@use 'sass:color';
+
 .contactForm {
   flex: 1;
   background: white;
@@ -51,6 +54,6 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken(#31805a, 10%);
+    background-color: color.adjust(#31805a, $lightness: 10%);
   }
 }
