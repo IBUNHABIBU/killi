@@ -36,7 +36,7 @@ const specialOffers = [
 
 export const SpecialOffers = () => {
   return (
-    <section className={styles.specialOffers}>
+    <section className={styles.specialOffers} id="special-offers">
       <div className={styles.header}>
         <h2 className={styles.title}>Special Deals & Last Minute Offers</h2>
         <p className={styles.subtitle}>
