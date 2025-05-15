@@ -15,18 +15,18 @@ export default function Footer() {
             offering wildlife adventures, mountain climbing, and cultural tours.
           </p>
           <div className={styles.socialIcons}>
-            <a href="https://facebook.com" aria-label="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=61554214025733" aria-label="Facebook" target='_blank'>
               <FaFacebookF />
             </a>
-            <a href="https://twitter.com" aria-label="Twitter">
+            {/* <a href="https://twitter.com" aria-label="Twitter">
               <FaTwitter />
-            </a>
-            <a href="https://instagram.com" aria-label="Instagram">
+            </a> */}
+            <a href="https://www.instagram.com/kilihappy_tanzania_adventures/" aria-label="Instagram">
               <FaInstagram />
             </a>
-            <a href="https://linkedin.com" aria-label="LinkedIn">
+            {/* <a href="https://linkedin.com" aria-label="LinkedIn">
               <FaLinkedinIn />
-            </a>
+            </a> */}
             <a href="https://tripadvisor.com" aria-label="TripAdvisor">
               <FaTripadvisor />
             </a>
