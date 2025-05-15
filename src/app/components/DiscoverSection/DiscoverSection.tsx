@@ -16,7 +16,7 @@ export const DiscoverSection = () => {
           <p className={styles.description}>
             Meet different people, cultures, traditions and landscapes. Choose your next destination with us, we will take care of the rest.
           </p>
-          <button className={styles.button} >
+          <button className={styles.button} onClick={scrollToSpecialOffers}>
             Explore Destinations
           </button>
         </div>

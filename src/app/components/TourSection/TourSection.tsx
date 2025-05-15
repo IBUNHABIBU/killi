@@ -3,8 +3,10 @@
 
 import Image from 'next/image';
 import styles from './TourSection.module.scss';
+import { useScrollToSection } from '../utils/ScrollToSection';
 
 export const ToursSection = () => {
+  const scrollToSpecialOffers = useScrollToSection('special-offers');
   const tourImages = [
     {
       src: '/images/nyumbu.jpg',
@@ -33,9 +35,9 @@ export const ToursSection = () => {
           <p className={styles.description}>
             From exotic places to ski resorts, the list is almost endless and we have an offer for you.
           </p>
-          <a href="#offers" className={styles.button}>
+          <button className={styles.button} onClick={scrollToSpecialOffers}>
             Explore Our Offers
-          </a>
+          </button>
         </div>
 
         {/* Right Image Grid */}

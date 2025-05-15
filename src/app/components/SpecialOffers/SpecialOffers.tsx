@@ -64,7 +64,7 @@ export const SpecialOffers = () => {
                 <span className={styles.currentPrice}>{offer.price}</span>
                 <span className={styles.originalPrice}>{offer.originalPrice}</span>
               </div>
-              <button className={styles.bookButton}>Book Now</button>
+              <a href='/contact' className={styles.bookButton}>Book Now</a>
             </div>
           </div>
         ))}
