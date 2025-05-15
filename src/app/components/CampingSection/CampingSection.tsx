@@ -3,8 +3,10 @@
 
 import Image from 'next/image';
 import styles from './CampingSection.module.scss';
+import { useScrollToSection } from '../utils/ScrollToSection';
 
 export const CampingSection = () => {
+  const scrollToSpecialOffers = useScrollToSection('special-offers');
   return (
     <section className={styles.campingSection}>
       <div className={styles.container}>
@@ -29,7 +31,7 @@ export const CampingSection = () => {
             Sleep under the stars, witness breathtaking wildlife, and create 
             unforgettable memories in the heart of Africa.
           </p>
-          <button className={styles.button}>
+          <button className={styles.button} onClick={scrollToSpecialOffers}>
             Explore Our Offers
           </button>
         </div>
