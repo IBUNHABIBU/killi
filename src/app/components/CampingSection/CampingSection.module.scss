@@ -82,19 +82,3 @@
   margin-bottom: 2rem;
 }
 
-.button {
-  display: inline-block;
-  padding: 0.8rem 2rem;
-  background-color: $color-primary;
-  color: white;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
-  text-align: center;
-  transition: background-color 0.3s ease;
-  align-self: flex-start;
-
-  &:hover {
-    background-color: color.adjust($color-primary, $lightness: -10%);
-  }
-}

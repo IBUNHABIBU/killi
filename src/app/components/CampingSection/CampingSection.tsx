@@ -29,9 +29,9 @@ export const CampingSection = () => {
             Sleep under the stars, witness breathtaking wildlife, and create 
             unforgettable memories in the heart of Africa.
           </p>
-          <a href="#offers" className={styles.button}>
+          <button className={styles.button}>
             Explore Our Offers
-          </a>
+          </button>
         </div>
       </div>
     </section>
