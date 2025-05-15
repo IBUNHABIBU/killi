@@ -3,7 +3,6 @@
 
 import Image from 'next/image';
 import styles from './DiscoverSection.module.scss';
-import { useScrollToSection } from '../utils/ScrollToSection';
 
 export const DiscoverSection = () => {
   const scrollToSpecialOffers = useScrollToSection('special-offers');

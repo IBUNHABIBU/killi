@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import styles from './CampingSection.module.scss';
-import { useScrollToSection } from '../utils/ScrollToSection';
+import useScrollToSection from '../utils/ScrollToSection';
 
 export const CampingSection = () => {
   const scrollToSpecialOffers = useScrollToSection('special-offers');

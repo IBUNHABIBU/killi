@@ -4,7 +4,8 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './Hero.module.scss';
-import { useScrollToSection } from '../utils/ScrollToSection';
+import useScrollToSection from '../utils/ScrollToSection';
+
 
 export const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
