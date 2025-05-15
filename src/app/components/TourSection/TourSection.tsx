@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import styles from './TourSection.module.scss';
-import { useScrollToSection } from '../utils/ScrollToSection';
+import useScrollToSection from '../utils/ScrollToSection';
 
 export const ToursSection = () => {
   const scrollToSpecialOffers = useScrollToSection('special-offers');
