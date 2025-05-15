@@ -12,7 +12,7 @@ const specialOffers = [
     price: '20%',
     originalPrice: 'OFF',
     image: '/images/jioni.jpg',
-    expiry: 'Offer ends in 3 days'
+    expiry: 'happy to save you a spot'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const specialOffers = [
     price: '20%',
     originalPrice: 'OFF',
     image: '/images/uhurupeak.jpg',
-    expiry: 'Limited availability'
+    expiry: "now's a great time"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const specialOffers = [
     price: '20%',
     originalPrice: 'OFF',
     image: '/images/klimanjaro.jpg',
-    expiry: 'Only 2 spots left'
+    expiry: 'would love to have you join!'
   }
 ];
 

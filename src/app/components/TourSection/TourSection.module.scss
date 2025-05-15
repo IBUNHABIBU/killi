@@ -49,18 +49,27 @@
   max-width: 500px;
 }
 
+// In your Hero.module.scss
 .button {
-  display: inline-block;
-  padding: 0.8rem 2rem;
-  background-color: $color-primary;
+  background-color: #31805a;
   color: white;
-  border-radius: 4px;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
 
   &:hover {
-    background-color: color.adjust($color-primary, $lightness: -10%);
+    background-color: darken(#31805a, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    transform: translateY(0);
   }
 }
 
