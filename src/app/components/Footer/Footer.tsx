@@ -21,7 +21,7 @@ export default function Footer() {
             {/* <a href="https://twitter.com" aria-label="Twitter">
               <FaTwitter />
             </a> */}
-            <a href="https://www.instagram.com/kilihappy_tanzania_adventures/" aria-label="Instagram">
+            <a href="https://www.instagram.com/kilihappy_tanzania_adventures/" aria-label="Instagram" target='_blank'>
               <FaInstagram />
             </a>
             {/* <a href="https://linkedin.com" aria-label="LinkedIn">
@@ -43,15 +43,15 @@ export default function Footer() {
             <li>
               <Link href="/about">About Us</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/tours">Safari Tours</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="/destinations">Destinations</Link>
             </li>
             <li>
               <Link href="/blog">Travel Blog</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/contact">Contact</Link>
             </li>

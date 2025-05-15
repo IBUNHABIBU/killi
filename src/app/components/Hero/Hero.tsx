@@ -4,9 +4,26 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './Hero.module.scss';
+import { useRouter } from 'next/navigation';
 
 export const Hero = () => {
+  const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
+
+  const scrollToSpecialOffers = () => {
+    // If we're not on the home page, navigate there first
+    if (window.location.pathname !== '/') {
+      router.push('/#special-offers');
+    } else {
+      const element = document.getElementById('special-offers');
+      if (element) {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }
+  };
 
   useEffect(() => {
     setIsMounted(true);
@@ -23,7 +40,7 @@ export const Hero = () => {
   }
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="special-offers">
       <div className={styles.heroBackground}>
         <Image
           src="/images/kilimanjarotwiga.jpg"
@@ -43,7 +60,7 @@ export const Hero = () => {
         <p className={styles.heroText}>
           We specialize in Wildlife Safaris, Mountain Climbing, Beach Holidays, Culture Tourism and Day Trips.
         </p>
-        <a href="#services" className={styles.heroButton}>
+        <a href="#services" className={styles.heroButton} onClick={scrollToSpecialOffers}>
           Explore Our Services
         </a>
       </div>
