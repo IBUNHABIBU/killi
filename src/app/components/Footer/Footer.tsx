@@ -1,6 +1,6 @@
 // app/components/Footer/Footer.tsx
 import Link from 'next/link';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaTripadvisor } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTripadvisor } from 'react-icons/fa';
 import styles from './Footer.module.scss';
 
 export default function Footer() {
