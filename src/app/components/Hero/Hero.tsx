@@ -26,7 +26,7 @@ export const Hero = () => {
   }
 
   return (
-    <section className={styles.hero} id="special-offers">
+    <section className={styles.hero}>
       <div className={styles.heroBackground}>
         <Image
           src="/images/kilimanjarotwiga.jpg"

@@ -3,8 +3,10 @@
 
 import Image from 'next/image';
 import styles from './DiscoverSection.module.scss';
+import { useScrollToSection } from '../utils/ScrollToSection';
 
 export const DiscoverSection = () => {
+  const scrollToSpecialOffers = useScrollToSection('special-offers');
   return (
     <section className={styles.discoverSection}>
       <div className={styles.container}>
@@ -14,9 +16,9 @@ export const DiscoverSection = () => {
           <p className={styles.description}>
             Meet different people, cultures, traditions and landscapes. Choose your next destination with us, we will take care of the rest.
           </p>
-          <a href="#destinations" className={styles.button}>
+          <button className={styles.button} >
             Explore Destinations
-          </a>
+          </button>
         </div>
 
         {/* Right Image */}
