@@ -6,7 +6,7 @@ import { DiscoverSection } from "./components/DiscoverSection/DiscoverSection";
 import { ToursSection } from "./components/TourSection/TourSection";
 import { TestimonialSection } from "./components/TestimonialSection/TestimonialSection";
 import { SpecialOffers } from "./components/SpecialOffers/SpecialOffers";
-import { maranguTour } from "./types/maranguTours";
+import { maranguTour } from "./data/maranguTours";
 import UpcomingTours from "./components/UpcomingTours/UpcomingTours";
 
 export default function Home() {

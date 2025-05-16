@@ -1,34 +1,20 @@
-import React from 'react';
-import styles from './UpcomingTours.module.scss';
-import { Tour } from '../../types/tour';
+import { upcomingTours } from '@/app/data/tour';
 import TourCard from '../TourCard/TourCard';
+import styles from './UpcomingTours.module.scss';
 
-interface UpcomingToursProps {
-  tours: Tour[];
-}
-
-const UpcomingTours: React.FC<UpcomingToursProps> = ({ tours }) => {
+const UpcomingTours = () => {
   return (
-    <section className={styles.upcomingTours}>
-      <div className={styles.upcomingTours__header}>
-        <h2 className={styles.upcomingTours__title}>Upcoming Adventure Tours</h2>
-        <p className={styles.upcomingTours__subtitle}>
-          Discover our carefully curated selection of unforgettable experiences
-        </p>
-      </div>
-
-      <div className={styles.upcomingTours__grid}>
-        {tours.map((tour) => (
+    <section className={styles.section}>
+      <h2 className={styles.title}>Upcoming Adventures</h2>
+      
+      <div className={styles.grid}>
+        {upcomingTours.map((tour) => (
           <TourCard 
-            key={tour.id} 
-            tour={tour} 
-            className={`${styles.upcomingTours__card} ${tour.featured ? styles['upcomingTours__card--featured'] : ''}`}
+            key={tour.id}
+            tour={tour}
+            className={tour.id === 'marangu-route' ? styles.featuredCard : ''}
           />
         ))}
-      </div>
-
-      <div className={styles.upcomingTours__cta}>
-        <button className={styles.upcomingTours__button}>View All Tours</button>
       </div>
     </section>
   );
