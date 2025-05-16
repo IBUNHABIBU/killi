@@ -1,6 +1,6 @@
 import { upcomingTours } from '@/app/data/tour';
-import TourCard from '../TourCard/TourCard';
 import styles from './UpcomingTours.module.scss';
+import TourCard from './TourCard';
 
 const UpcomingTours = () => {
   return (
