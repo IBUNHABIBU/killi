@@ -1,0 +1,164 @@
+// Variables
+$color-success: #38a169;
+$color-warning: #dd6b20;
+$color-danger: #e53e3e;
+$color-gray-800: #2d3748;
+$color-gray-700: #4a5568;
+$color-gray-600: #718096;
+$color-gray-200: #edf2f7;
+$color-primary: #3182ce;
+$color-primary-dark: #2c5282;
+$shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+.tourCard {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: $shadow-card;
+  transition: transform 0.3s ease;
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-0.3125rem);
+  }
+
+  &__imageContainer {
+    position: relative;
+    height: 12.5rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__difficulty {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03125rem;
+
+    &--easy {
+      background-color: rgba(56, 161, 105, 0.2);
+      color: $color-success;
+    }
+
+    &--moderate {
+      background-color: rgba(221, 107, 32, 0.2);
+      color: $color-warning;
+    }
+
+    &--challenging {
+      background-color: rgba(229, 62, 62, 0.2);
+      color: $color-danger;
+    }
+  }
+
+  &__content {
+    padding: 1.25rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+    color: $color-gray-800;
+    font-weight: 600;
+  }
+
+  &__duration {
+    color: $color-gray-600;
+    margin: 0 0 1rem 0;
+    font-size: 0.875rem;
+  }
+
+  &__description {
+    color: $color-gray-700;
+    margin: 0 0 1.5rem 0;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  &__highlights {
+    margin: 0 0 1.5rem 0;
+    padding-left: 1.25rem;
+    list-style: none;
+    flex-grow: 1;
+  }
+
+  &__highlight {
+    color: $color-gray-700;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    line-height: 1.4;
+
+    &::before {
+      content: "•";
+      color: $color-primary;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      position: absolute;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  &__price {
+    font-weight: 700;
+    color: $color-gray-800;
+  }
+
+  &__button {
+    background: $color-primary;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    &:hover {
+      background: $color-primary-dark;
+    }
+  }
+}
+
+// Featured card styles (applied via className)
+.featuredCard {
+  grid-column: 1 / -1;
+
+  @media (min-width: 768px) {
+    .tourCard {
+      flex-direction: row;
+
+      &__imageContainer {
+        flex: 1;
+        height: auto;
+      }
+
+      &__content {
+        flex: 1;
+      }
+    }
+  }
+}
