@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import TourDetails from '@/components/TourDetails'; // We'll create this next
 import { upcomingTours } from '@/app/data/tour';
+import TourDetails from '@/app/components/TourDetails/TourDetails';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = upcomingTours.map((tour) => ({
