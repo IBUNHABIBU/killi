@@ -1,5 +1,5 @@
+import { Tour } from '@/app/data/tour';
 import styles from './TourDetails.module.scss';
-import { Tour } from '@/data/tours';
 
 interface TourDetailsProps {
   tour: Tour;
