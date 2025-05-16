@@ -6,6 +6,7 @@ import { DiscoverSection } from "./components/DiscoverSection/DiscoverSection";
 import { ToursSection } from "./components/TourSection/TourSection";
 import { TestimonialSection } from "./components/TestimonialSection/TestimonialSection";
 import { SpecialOffers } from "./components/SpecialOffers/SpecialOffers";
+import UpcomingTours from "./components/UpcomingTours/UpcomingTours";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <CampingSection />
       <DiscoverSection />
+      <UpcomingTours />
       <ToursSection />
       <TestimonialSection />
       <SpecialOffers />

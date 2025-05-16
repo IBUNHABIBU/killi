@@ -21,7 +21,7 @@ export const upcomingTours: Tour[] = [
     slug: 'marangu-route',
     duration: '6 Days',
     difficulty: 'Moderate',
-    image: '/images/tours/marangu.jpg',
+    image: '/images/klimanjaro.jpg',
     highlights: [
       "Easiest route to Kilimanjaro's summit",
       "Mountain hut accommodations",
