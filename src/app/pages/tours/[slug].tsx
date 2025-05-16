@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { upcomingTours } from '@/app/data/tour';
+import { Tour, upcomingTours } from '@/app/data/tour';
 import TourDetails from '@/app/components/TourDetails/TourDetails';
 
 export const getStaticPaths: GetStaticPaths = async () => {
