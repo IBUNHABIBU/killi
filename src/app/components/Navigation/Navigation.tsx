@@ -14,6 +14,11 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
+    { name: "Our Services", path: "/services" },
+    { name: "Trekking", path: "/treking" },
+    { name: "Wild Life Safary Experience", path: "/Wild Life Safary Experience" },
+    { name: "Day trips", path: "/Day trips" },
+    { name: "Testimonials", path: "/testimonials" },
     { name: "Contact", path: "/contact" }
   ];
 
