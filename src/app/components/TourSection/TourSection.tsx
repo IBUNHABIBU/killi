@@ -31,7 +31,7 @@ export const ToursSection = () => {
       <div className={styles.container}>
         {/* Left Content */}
         <div className={styles.content}>
-          <h2 className={styles.title}>Discover Tanzania&apos;s Natural Wonders</h2>
+          <h2 className={styles.title}>Discover Tanzania&apos;s  Natural Wonders</h2>
           <p className={styles.description}>
             Where Every Journey Becomes a Story
           </p>
