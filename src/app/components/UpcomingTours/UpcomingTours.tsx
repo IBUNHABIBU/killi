@@ -5,7 +5,7 @@ import TourCard from './TourCard';
 const UpcomingTours = () => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>Upcoming Adventures</h2>
+      <h2 className={styles.title}>Adventures</h2>
       
       <div className={styles.grid}>
         {upcomingTours.map((tour) => (

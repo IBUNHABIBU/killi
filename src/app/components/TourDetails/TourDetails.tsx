@@ -37,6 +37,24 @@ const TourDetails = ({ tour }: TourDetailsProps) => {
             ))}
           </ul>
         </section>
+
+        <section className={styles.highlights}>
+          <h2>Included Items</h2>
+          <ul>
+            {tour.includedItems.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className={styles.highlights}>
+          <h2>Excluded Items</h2>
+          <ul>
+            {tour.excludedItems.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </section>
       </div>
     </div>
   );
