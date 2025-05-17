@@ -23,7 +23,7 @@ export const upcomingTours: Tour[] = [
     slug: 'marangu-route',
     duration: '6 Days',
     difficulty: 'Moderate',
-    image: '/images/klimanjaro.jpg',
+    image: '/images/package1.jpeg',
     highlights: [
       "Easiest route to Kilimanjaro's summit",
       "Mountain hut accommodations",
@@ -90,9 +90,9 @@ export const upcomingTours: Tour[] = [
     id: 'camping-safari',
     title: '4-Days Best Tanzania camping Safari',
     slug: 'camping-safari',
-    duration: '6 Days',
+    duration: '4 Days',
     difficulty: 'Moderate',
-    image: '/images/klimanjaro.jpg',
+    image: '/images/package2.jpg',
     highlights: [
       "seeing amazing animals and nature", 
     ],
@@ -136,6 +136,61 @@ export const upcomingTours: Tour[] = [
         day: 4,
         title: " NGORONGORO CRATER TO ARUSHA ",
         content: "After breakfast, with a picnic lunch packed, we depart for a game drive to the Ngorongoro crater. A real-life Eden, you will be amazed by its abundant wildlife that gets very close to the vehicle. The crater floor supports more than 25000 large mammals including the remaining Black Rhinos, Zebras, Gnus, Gazelles, Buffalos, Lions, Hippos, Elephants, Elands, Hyenas, and several aquatic birds. We explore the crater till late afternoon drive back to Arusha and take your flight Zanzibar/home."
+      },
+     
+      // ... other days
+    ]
+  },
+   {
+    id: '4days-camping-safari',
+    title: '4-Day 3 nights Safari to Tarangire, Ngorongoro & Serengeti National Park ',
+    slug: '4days-camping-safari',
+    duration: '4 Days 3 nights',
+    difficulty: 'Moderate',
+    image: '/images/package3.jpg',
+    highlights: [
+      "seeing amazing animals and nature", 
+    ],
+   includedItems: [
+  "Professional, English-speaking guide",
+  "Mountain crew (cook & porters)",
+  "Overnight stays in hotels and mountain huts",
+  "Meals according to the itinerary",
+  "Drinking water",
+  "All national park fees",
+  "All mentioned transfers",
+   ],
+    excludedItems: [
+      "Sleeping bag",
+      "Flights",
+      "Alcoholic and soft drinks",
+      "Visa fees",
+      "Tips",
+      "Personal spending money for souvenirs etc.",
+      "Travel insurance"
+    ],
+
+    description: `  which might be an advantage compared to the camping routes.`, // Full description
+    itinerary: [
+      {
+        day: 1,
+        title: 'ARUSHA TO TARANGIRE NATIONAL PARK.',
+        content: 'You will be picked up from the Hotel and driven to Tarangire National Park for the day game drive with your picnic lunch boxes en route. In the evening, drive to Karatu for dinner and overnight.The park is located slightly off the main safari route. Tarangire National Park is a lovely quiet park in Northern Tanzania that is most famous for its elephant migration, birding, and quiet and authentic safari atmosphere. The majority of travelers to the region either miss out on Tarangire altogether or venture into the park for a matter of hours leaving parts of Tarangire virtually untouched.'
+      },
+      {
+        day: 2,
+        title: 'NGORONGORO CRATER.',
+        content: 'After breakfast, drive to Ngorongoro for the game drive in Ngorongoro Crater, and in the afternoon, drive to Serengeti National Park.The jewel in Ngorongoro crown is a deep, volcanic crater, the largest unflooded and unbroken caldera in the world. About 20 km across, 600 meters deep, and 300 sq km in area, the Ngorongoro Crater is a breathtaking natural wonder. We will visit Lake Magadi, a large but shallow alkaline lake in the southwestern corner, which is one of the main features of the crater. A large number of flamingos, hippos, and other water birds can usually be seen here.'
+      },
+      {
+        day: 3,
+        title: "SERENGETI NATIONAL PARK.",
+        content: "Embark on a full-day game drive across the captivating Serengeti plains and the wildlife-rich Seronera area. Encounter the majesty of elusive lions, leopards, elephants, cheetahs, buffalo, zebras, wildebeests, elands, wild dogs, gazelles, and crocodiles in their natural habitat. It's a day filled with thrilling wildlife experiences amidst the stunning landscapes of SERENGETI ."
+      },
+      {
+        day: 4,
+        title: " SERENGETI NATIONAL PARK TO ARUSHA. ",
+        content: "We begin our day by waking up early in the morning and checking out from our hotel. Following that, we embark on a drive back to Arusha, enjoying a game drive en route during the late afternoon. Eventually, we reach our destination in the evening, where you will be conveniently dropped off at your hotel."
       },
      
       // ... other days

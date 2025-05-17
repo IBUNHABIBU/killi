@@ -24,8 +24,8 @@ export const CampingSection = () => {
 
         {/* Right Content */}
         <div className={styles.content}>
-          <h2 className={styles.title}>Camping Safari Package</h2>
-          <p className={styles.subtitle}>4 Days Best Tanzania Camping Safari</p>
+          <h2 className={styles.title}>Live the Culture, Feel the Connection</h2>
+          <p className={styles.subtitle}>Camp. Connect. Belong.</p>
           <p className={styles.description}>
             Experience the wild beauty of Tanzania with our authentic camping safari. 
             Sleep under the stars, witness breathtaking wildlife, and create 

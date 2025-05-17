@@ -31,9 +31,12 @@ export const ToursSection = () => {
       <div className={styles.container}>
         {/* Left Content */}
         <div className={styles.content}>
-          <h2 className={styles.title}>Upcoming Tours and Destinations</h2>
+          <h2 className={styles.title}>Discover Tanzania's Natural Wonders</h2>
           <p className={styles.description}>
-            From exotic places to ski resorts, the list is almost endless and we have an offer for you.
+            Where Every Journey Becomes a Story
+          </p>
+          <p className={styles.description}>
+            Stand at the gates of the legendary Serengeti. Conquer the summit of Mount Kilimanjaro. Witness zebras roaming wild and free. At Kilihappy, we take you beyond the ordinary—into the heart of Tanzania’s breathtaking landscapes and unforgettable wildlife experiences.
           </p>
           <button className={styles.button} onClick={scrollToSpecialOffers}>
             Explore Our Offers

@@ -41,7 +41,7 @@ export const Hero = () => {
 
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
-          Come as a client, <span>leave as a friend</span>
+         <span>At Kilihappy Tanzania Adventures,</span> you come as a client and leave as a friend.
         </h1>
         <p className={styles.heroText}>
           We specialize in Wildlife Safaris, Mountain Climbing, Beach Holidays, Culture Tourism and Day Trips.
