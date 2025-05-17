@@ -2,27 +2,26 @@ import { notFound } from 'next/navigation';
 import { upcomingTours } from '@/app/data/tour';
 import TourDetails from '@/app/components/TourDetails/TourDetails';
 
+// Updated interface for Next.js 15+
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-// This function generates static paths at build time
 export async function generateStaticParams() {
   return upcomingTours.map((tour) => ({
     slug: tour.slug,
   }));
 }
 
-// This can be async if you need to fetch data
-export default function Page({ params }: PageProps) {
-  // Find the tour that matches the slug
-  const tour = upcomingTours.find((t) => t.slug === params.slug);
+export default async function Page({ params }: PageProps) {
+  // Await the params Promise
+  const { slug } = await params;
+  const tour = upcomingTours.find((t) => t.slug === slug);
 
-  // If no tour is found, return a 404
   if (!tour) {
     notFound();
   }
 
-  // Return the tour details component
   return <TourDetails tour={tour} />;
 }
