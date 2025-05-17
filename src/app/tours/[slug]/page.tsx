@@ -8,7 +8,7 @@ type PageProps = {
 };
 
 // Generate static paths at build time
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
+export  function generateStaticParams() {
   return upcomingTours.map((tour) => ({
     slug: tour.slug,
   }));
