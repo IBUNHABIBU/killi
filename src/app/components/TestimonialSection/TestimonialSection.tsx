@@ -27,7 +27,7 @@ export const TestimonialSection = () => {
               &quot;We booked our honeymoon with Kilihappy Adventures Tanzania and it was simply incredible. 
               They took care of everything, even our packing list!&quot;
             </p>
-            <cite className={styles.author}>John Qin & Paul</cite>
+            <cite className={styles.author}>John Qin & Grace Tao </cite>
           </blockquote>
         </div>
       </div>
