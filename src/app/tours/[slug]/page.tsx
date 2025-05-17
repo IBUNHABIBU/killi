@@ -3,10 +3,10 @@ import { upcomingTours } from '@/app/data/tour';
 import TourDetails from '@/app/components/TourDetails/TourDetails';
 
 // Use this exact interface
-interface Props {
+type PageProps = {
   params: { slug: string };
-  searchParams: Record<string, string | string[] | undefined>;
-}
+  searchParams?: { [key: string]: string | string[] | undefined };
+};
 
 export async function generateStaticParams() {
   return upcomingTours.map((tour) => ({
