@@ -52,6 +52,24 @@ export default function AboutPage() {
         </div>
       </section>
 
+       <section className={styles.values}>
+        <div className={styles.aboutContainer}>
+          <h2>Our Mission</h2>
+            <p>To provide our client with unforgettable travel experience, 
+              with guaranteed services that surpass their expectations
+              and also contribute to our suitable tourism destination.
+              </p>
+        </div>
+      </section>
+      
+       <section className={styles.values}>
+        <div className={styles.aboutContainer}>
+          <h2>Our Vision</h2>
+            <p>To be the best tourism company in East Africa for mountaineering and Wildlife safaris with efficiency
+              and reliability
+              </p>
+        </div>
+      </section>
       {/* Values Section */}
       <section className={styles.values}>
         <div className={styles.container}>
@@ -88,6 +106,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
 
       {/* Team Section */}
       <section className={styles.team}>
