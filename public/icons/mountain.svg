@@ -1,0 +1,6 @@
+<!-- public/icons/mountain.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path fill="#3498db" d="M32 2L2 62h60L32 2zm0 12.5L50.5 54h-37L32 14.5z"/>
+  <path fill="#2c3e50" d="M32 14.5L14.5 54h35L32 14.5z"/>
+  <path fill="#fff" d="M32 22l-8.5 20h17L32 22z"/>
+</svg>
