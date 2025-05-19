@@ -1,0 +1,8 @@
+<!-- public/icons/beach.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path fill="#f1c40f" d="M2 44h60v18H2z"/>
+  <path fill="#3498db" d="M2 26h60v18H2z"/>
+  <path fill="#e67e22" d="M12 38c0-5.5 4.5-10 10-10s10 4.5 10 10H12z"/>
+  <path fill="#27ae60" d="M42 12c-6.6 0-12 5.4-12 12v14h24V24c0-6.6-5.4-12-12-12z"/>
+  <path fill="#2c3e50" d="M42 16c-4.4 0-8 3.6-8 8v10h16V24c0-4.4-3.6-8-8-8z"/>
+</svg>

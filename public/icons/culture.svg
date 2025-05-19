@@ -1,0 +1,9 @@
+<!-- public/icons/culture.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path fill="#e67e22" d="M32 2c-8.8 0-16 7.2-16 16v28c0 8.8 7.2 16 16 16s16-7.2 16-16V18c0-8.8-7.2-16-16-16zm0 4c6.6 0 12 5.4 12 12v28c0 6.6-5.4 12-12 12s-12-5.4-12-12V18c0-6.6 5.4-12 12-12z"/>
+  <path fill="#2c3e50" d="M40 18c0-4.4-3.6-8-8-8s-8 3.6-8 8v28c0 4.4 3.6 8 8 8s8-3.6 8-8V18z"/>
+  <circle cx="32" cy="14" r="2" fill="#fff"/>
+  <circle cx="26" cy="22" r="2" fill="#fff"/>
+  <circle cx="38" cy="22" r="2" fill="#fff"/>
+  <path fill="#f1c40f" d="M28 34h8v12h-8z"/>
+</svg>
