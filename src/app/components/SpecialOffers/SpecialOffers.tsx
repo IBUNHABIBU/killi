@@ -7,7 +7,7 @@ import styles from './SpecialOffers.module.scss';
 const specialOffers = [
   {
     id: 1,
-    title: 'Serengeti Safari Special',
+    title: 'Wildlife safari',
     description: '3-day luxury camping safari with guided game drives',
     price: '20%',
     originalPrice: 'OFF',
