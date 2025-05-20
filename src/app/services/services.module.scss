@@ -1,0 +1,75 @@
+.servicesPage {
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  min-height: 100vh;
+}
+
+.heroHeader {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+              url('/images/tanzania-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+
+  @media (min-width: 768px) {
+    padding: 6rem 1rem 4rem;
+  }
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+.titleLine {
+  display: inline-block;
+}
+
+.titleHighlight {
+  color: #e67e22; // Kilihappy brand orange
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+  }
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+
+  @media (min-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+
+.contentWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+}
