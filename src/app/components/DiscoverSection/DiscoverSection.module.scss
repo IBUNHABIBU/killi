@@ -54,7 +54,7 @@
 .button {
   display: inline-block;
   padding: 0.8rem 2rem;
-  background-color: $color-primary;
+  background-color: $button-color;
   color: white;
   border-radius: 4px;
   font-weight: 600;
@@ -62,11 +62,11 @@
   text-align: center;
   transition: all 0.3s ease;
   align-self: flex-start;
-  border: 2px solid $color-primary;
+  border: 2px solid $button-color;
 
   &:hover {
     background-color: transparent;
-    color: $color-primary;
+    color: $button-color;
   }
 }
 

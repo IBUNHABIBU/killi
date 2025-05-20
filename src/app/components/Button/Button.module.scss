@@ -12,21 +12,21 @@
   text-align: center;
 
   &.primary {
-    background-color: $color-primary;
+    background-color: $button-color;
     color: $color-white;
 
     &:hover {  
-     background-color: color.adjust($color-primary, $lightness: -10%);
+     background-color: color.adjust($button-color, $lightness: -10%);
     }
   }
 
   &.secondary {
     background-color: transparent;
-    color: $color-primary;
-    border: 2px solid $color-primary;
+    color: $button-color;
+    border: 2px solid $button-color;
 
     &:hover {
-      background-color: $color-primary;
+      background-color: $button-color;
       color: $color-white;
     }
   }

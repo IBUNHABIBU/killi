@@ -15,7 +15,7 @@ const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Our Services", path: "/services" },
-    { name: "Trekking", path: "/treking" },
+    { name: "Trekking", path: "/trekking" },
     { name: "Wildlife Safary Experience", path: "/Wild Life Safary Experience" },
     { name: "Day trips", path: "/Day trips" },
     { name: "Testimonials", path: "/testimonials" },

@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import styles from './CompanyServices.module.scss';
+import Link from 'next/link';
 
-const Oservices = [
+const services = [
   {
     title: "Wildlife Safaris",
     icon: "/icons/safari.svg",
@@ -14,8 +15,8 @@ const Oservices = [
     ]
   },
   {
-    title: "Kilimanjaro Climbing", 
-    icon: "/icons/montain.svg",
+    title: "Mountain Climbing", 
+    icon: "/icons/mountain.svg",
     image: "/images/nyumbu.jpg",
     description: "Summit Africa's highest peak via scenic routes with our certified mountain crews and premium equipment.",
     highlights: [
@@ -25,33 +26,10 @@ const Oservices = [
     ]
   },
   // Add other services...
-];
-
-
-const services = [
-  {
-    title: "Wildlife Safaris",
-    image: "/images/nyumbu.jpg",
-    description: "Witness the Great Migration in Serengeti and Ngorongoro's Big Five with our expert Maasai guides.",
-    highlights: [
-      "Serengeti National Park",
-      "Ngorongoro Crater",
-      "Tarangire's Elephants"
-    ]
-  },
-  {
-    title: "Kilimanjaro Climbing",
-    image: "/images/klimanjaro.jpg", 
-    description: "Conquer Africa's highest peak through scenic routes with our certified mountain crews.",
-    highlights: [
-      "Marangu Route",
-      "Machame Route", 
-      "Lemosho Route"
-    ]
-  },
-  {
+    {
     title: "Zanzibar Holidays",
-    image: "/images/zanzibar.jpg",
+    icon: "/icons/beach.svg",
+    image: "/images/zanzibar.jpeg",
     description: "Relax on pristine beaches and explore Stone Town's UNESCO heritage sites.",
     highlights: [
       "Nungwi Beach",
@@ -61,7 +39,8 @@ const services = [
   },
   {
     title: "Cultural Experiences",
-    image: "/images/culture.jpg",
+    icon: "/icons/culture.svg",
+    image: "/images/maasai.jpeg",
     description: "Engage with Maasai and Hadzabe communities through authentic interactions.",
     highlights: [
       "Maasai Village Visits",
@@ -70,6 +49,7 @@ const services = [
     ]
   }
 ];
+
 
 export default function Services() {
   return (
@@ -112,6 +92,13 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
+              <Link 
+                href='/contact'
+                className={styles.ctaButton}
+              >
+                Book Now
+                <span className={styles.ctaArrow}>→</span>
+              </Link>
             </div>
           </div>
         ))}

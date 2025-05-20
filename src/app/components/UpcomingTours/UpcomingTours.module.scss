@@ -87,12 +87,12 @@
 .cta {
   display: inline-block;
   margin-top: 1rem;
-  color: $color-primary;
+  color: $button-color;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s ease;
 
   &:hover {
-    color: $color-secondary;
+    color: $button-color;
   }
 }
