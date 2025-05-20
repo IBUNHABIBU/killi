@@ -19,10 +19,7 @@ const Page = () => {
 
       {/* Upcoming Tours Section */}
       <section className={styles.toursSection}>
-        <div className={styles.sectionHeader}>
-          <h2>Upcoming Safari Adventures</h2>
-          <p>Journeys crafted with local expertise</p>
-        </div>
+        
         <UpcomingTours />
       </section>
     </main>
