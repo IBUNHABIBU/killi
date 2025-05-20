@@ -9,7 +9,7 @@ const Page = () => {
       <div className={styles.heroHeader}>
         <h1 className={styles.mainTitle}>
           <span className={styles.titleLine}>Our</span>
-          <span className={styles.titleHighlight}>Tanzanian</span>
+          {/* <span className={styles.titleHighlight}>Tanzanian</span> */}
           <span className={styles.titleLine}>Services</span>
         </h1>
         <p className={styles.subtitle}>
