@@ -82,7 +82,7 @@
 }
 
 .heroButton {
-  background-color: #31805a;
+  background-color: $button-color;
   color: white;
   border: none;
   padding: 0.8rem 2rem;
@@ -94,7 +94,7 @@
   margin-top: 1.5rem;
 
   &:hover {
-    background-color: darken(#31805a, 10%);
+    background-color: darken($button-color, 10%);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
