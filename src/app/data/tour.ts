@@ -29,17 +29,17 @@ export const upcomingTours: Tour[] = [
       "Mountain hut accommodations",
       "Summit at Uhuru Peak (5,895m)"
     ],
-   includedItems: [
-  "Kilimanjaro trekking according to the itinerary",
-  "Professional, English-speaking guide",
-  "Mountain crew (cook & porters)",
-  "Overnight stays in hotels and mountain huts",
-  "Meals according to the itinerary",
-  "Drinking water",
-  "All national park fees",
-  "All mentioned transfers",
-  "Extra oxygen cylinder"
-   ],
+    includedItems: [
+      "Kilimanjaro trekking according to the itinerary",
+      "Professional, English-speaking guide",
+      "Mountain crew (cook & porters)",
+      "Overnight stays in hotels and mountain huts",
+      "Meals according to the itinerary",
+      "Drinking water",
+      "All national park fees",
+      "All mentioned transfers",
+      "Extra oxygen cylinder"
+    ],
     excludedItems: [
       "Sleeping bag",
       "Flights",
@@ -49,43 +49,100 @@ export const upcomingTours: Tour[] = [
       "Personal spending money for souvenirs etc.",
       "Travel insurance"
     ],
-
-    description: `The Marangu route is perhaps the easiest and most comfortable route...`, // Full description
-    itinerary: [
-      {
-        day: 1,
-        title: 'Arusha – Marangu Gate',
-        content: 'After breakfast at the hotel you will be taken to the Kilimanjaro National Park gate (1,840 m). Once the necessary paper work has been completed, your trek can begin and you will soon be hiking through the dense rain forest. You might be lucky to catch a glimpse of the thumbless black and white colobus monkeys scrambling through the lush vegetation. Approximately 4 hours later, you will reach your destination for the day, the Mandara Hut. After a well-earned rest, your guide will take you to the Maundi Crater where you can enjoy wonderful views of the Kenyan interior. Evening meal and overnight stay at Mandara Hut (2,700 m).'
-      },
-      {
-        day: 2,
-        title: 'Mandara Hut (2,700 m) – Horombo Hut (3,700 m)',
-        content: 'The day begins with an early breakfast and shortly after you have left Mandara Hut, you will reach the treeline where vegetation changes to shrubs. Approximately 4 to 6 hours later, the Horombo Hut will come into sight at an altitude of about 3,700 m. From the hut you will have fantastic views overlooking Mawenzi, Kibo peak and the Masai steppe. Evening meal and overnight stay at the Horombo Hut.'
-      },
-      {
-        day: 3,
-        title: "Horombo Hut (3,700 m) – Zebra Rocks (3,980 m) – Horombo Hut (3,700 m)",
-        content: "Today’s purpose is getting your body to acclimatise to the altitude. Acclimatisation should not be underestimated as it greatly improves your chances of reaching the summit. After a relaxing breakfast, you will set off on a 2 to 4 hour trek to Zebra Rocks (3,980 m). The distinctive black and white stripes give the rock formation its name. On your return to Horombo Hut, a cooked lunch will be waiting for you. You can relax in the afternoon and regain your strength for the hike the following day. Overnight and evening meal at Horombo Hut."
-      },
-      {
-        day: 4,
-        title: " Horombo Hut (3,700 m) – Kibo Hut (4,700 m)",
-        content: "Today’s stage is long and tough. The trail passes the “last waterpoint” which is followed by the so-called “saddle”. This nearly plantless plateau links the summit of Kibo with Mawenzi. Today’s destination is Kibo Hut and it should be reached in about 5 to 6 hours. Tonight is an early night to get enough rest, for you will be woken at approximately 23:00 h."
-      },
-      {
-        day: 5,
-        title: " Kibo Hut (4,700 m) – Uhuru Peak (5,895 m) – Horombo Hut (3,700 m)",
-        content: "Today is the “big day” – the summit stage. You will start in the middle of the night when the lava ash is still frozen and walking on it is easier. You will begin the long and strenuous trek to the summit in the dark. Passing the Hans Meyer cave at 5,200 m, the climb slowly but surely goes upwards. At sunrise, you will reach Gilman’s Point (5,715 m) on the crater rim. Soon you will have forgotten the cold of the night and after another 1 to 2 hours, you will reach Uhuru Peak at 5,895 m. Now you are standing on the “Roof of Africa”. The descent follows the same path and the lava ash will now have thawed and allows for a fast descent. On your return to Kibo Hut, a warm meal awaits you and you can rest a while to regain your strength. After the 1 to 2 hour break, you will be on your way down to the Horombo Hut (3,700 m) where you will arrive in the afternoon. After an evening meal, it is early to bed for most."
-      },
-      {
-        day: 6,
-        title: "Horombo Hut (3,700 m) – Marangu Gate (1,860 m) – Arusha",
-        content: "The last stage passes through the heather and moor zone to the Mandara Hut (2,700 m) where a cooked lunch awaits you. Soon you will again be in the lush tropical rain forest and after about 6 hours of trekking, you will be back at the Kilimanjaro National Park gate (1,860 m). After saying goodbye to your mountain crew you will be taken back to the Aquiline Hotel. At the hotel you can have a warm shower and celebrate your success in reaching the summit of Mt Kilimanjaro. You will have dinner and spend the night at the Green Hills of Africa."
-      }
-      // ... other days
+    description: `The Marangu route is perhaps the easiest and most comfortable route...`,
+    itinerary: [ /* ... */ 
+       { day: 1, title: "Machame Gate to Machame Camp", content: "Hike through rainforest to Machame Camp." },
+      { day: 2, title: "Machame Camp to Shira Camp", content: "Trek through moorland with views of Shira Plateau." },
+      { day: 3, title: "Shira Camp to Barranco Camp", content: "Hike via Lava Tower for acclimatization." },
+      { day: 4, title: "Barranco Camp to Karanga Camp", content: "Climb the Barranco Wall and trek to Karanga." },
+      { day: 5, title: "Karanga Camp to Barafu Camp", content: "Short trek to Barafu base camp." },
+      { day: 6, title: "Summit Uhuru Peak and descend to Mweka Camp", content: "Midnight start for summit attempt, descend to lower camp." },
+      { day: 7, title: "Mweka Camp to Mweka Gate", content: "Final descent to the park gate." }
     ]
   },
-  // ... other tours
+
+  {
+    id: 'machame-route',
+    title: '7 Days Machame Route',
+    slug: 'machame-route',
+    duration: '7 Days',
+    difficulty: 'Challenging',
+    image: '/images/package2.jpg',
+    highlights: [
+      "Popular and scenic route",
+      "High summit success rate",
+      "Diverse ecosystems: rainforest to alpine desert"
+    ],
+    includedItems: [
+      "All park entry fees and taxes",
+      "Professional English-speaking guides",
+      "Porters and cooks",
+      "Meals and drinking water",
+      "Camping equipment (tents, tables, chairs)",
+      "Transfers to and from park gate",
+      "Emergency oxygen cylinder"
+    ],
+    excludedItems: [
+      "Flights",
+      "Sleeping bags and personal gear",
+      "Visa fees",
+      "Tips for guides and crew",
+      "Travel insurance",
+      "Personal expenses"
+    ],
+    description: `The Machame Route, also known as the “Whiskey Route,” is one of the most scenic routes up Kilimanjaro, offering panoramic views across different climate zones.`,
+    itinerary: [
+      { day: 1, title: "Machame Gate to Machame Camp", content: "Hike through rainforest to Machame Camp." },
+      { day: 2, title: "Machame Camp to Shira Camp", content: "Trek through moorland with views of Shira Plateau." },
+      { day: 3, title: "Shira Camp to Barranco Camp", content: "Hike via Lava Tower for acclimatization." },
+      { day: 4, title: "Barranco Camp to Karanga Camp", content: "Climb the Barranco Wall and trek to Karanga." },
+      { day: 5, title: "Karanga Camp to Barafu Camp", content: "Short trek to Barafu base camp." },
+      { day: 6, title: "Summit Uhuru Peak and descend to Mweka Camp", content: "Midnight start for summit attempt, descend to lower camp." },
+      { day: 7, title: "Mweka Camp to Mweka Gate", content: "Final descent to the park gate." }
+    ]
+  },
+
+  {
+    id: 'lemosho-route',
+    title: '8 Days Lemosho Route',
+    slug: 'lemosho-route',
+    duration: '8 Days',
+    difficulty: 'Moderate',
+    image: '/images/package3.jpg',
+    highlights: [
+      "Remote and less crowded",
+      "High success rate due to acclimatization time",
+      "Stunning scenery and panoramic views"
+    ],
+    includedItems: [
+      "All park fees and rescue fees",
+      "English-speaking professional guides",
+      "Mountain crew (porters and cook)",
+      "Accommodation in tents",
+      "Meals and water on the mountain",
+      "Airport transfers",
+      "Oxygen cylinder for emergencies"
+    ],
+    excludedItems: [
+      "International flights",
+      "Tanzania visa",
+      "Sleeping bags and personal equipment",
+      "Tips",
+      "Insurance",
+      "Hotel stays before/after climb (unless arranged)"
+    ],
+    description: `The Lemosho Route is one of the most beautiful Kilimanjaro routes, starting on the western side and joining the Machame Route before summit.`,
+    itinerary: [
+      { day: 1, title: "Londorossi Gate to Mti Mkubwa", content: "Hike through rainforest to Big Tree Camp." },
+      { day: 2, title: "Mti Mkubwa to Shira 1 Camp", content: "Ascend through heather zone to Shira Plateau." },
+      { day: 3, title: "Shira 1 to Shira 2 Camp", content: "Trek across the plateau." },
+      { day: 4, title: "Shira 2 to Barranco Camp via Lava Tower", content: "Acclimatize via Lava Tower then descend." },
+      { day: 5, title: "Barranco to Karanga Camp", content: "Climb the Great Barranco Wall." },
+      { day: 6, title: "Karanga to Barafu Camp", content: "Short trek to base camp." },
+      { day: 7, title: "Barafu to Uhuru Peak to Mweka Camp", content: "Summit attempt and descend." },
+      { day: 8, title: "Mweka Camp to Mweka Gate", content: "Final trek through forest to gate." }
+    ]
+  }
 ];
 
 export const wildlife: Tour[] = [
