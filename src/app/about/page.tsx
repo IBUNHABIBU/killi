@@ -120,19 +120,19 @@ export default function AboutPage() {
               {
                 name: "Juma Mbeki",
                 role: "Founder & Head Guide",
-                image: "/images/ibunhabibu.jpeg",
+                image: "/images/faru.jpg",
                 bio: "Born in Arusha, Juma has 20+ years of guiding experience across East Africa."
               },
               {
                 name: "Neema Johnson",
                 role: "Operations Manager",
-                image: "/images/habib.jpg",
+                image: "/images/faru.jpg",
                 bio: "Ensures every detail of your journey is perfectly arranged."
               },
               {
                 name: "Thomas Mushi",
                 role: "Senior Safari Guide",
-                image: "/images/habibii.jpg",
+                image: "/images/faru.jpg",
                 bio: "Wildlife expert with unparalleled knowledge of animal behavior."
               }
             ].map((member, index) => (
