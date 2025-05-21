@@ -1,6 +1,7 @@
 import React from 'react';
 import WildLifeSafari from '../components/WildLifeSafari/WildLifeSafari';
 import styles from './wildlife.module.scss';
+import Link from 'next/link';
 
 const Page = () => {
   return (
@@ -24,9 +25,13 @@ const Page = () => {
       <section className={styles.ctaSection}>
         <h2>Ready for Your Adventure?</h2>
         <p>Book your custom safari package today</p>
-        <button className={styles.ctaButton}>
+        <Link 
+          href="/contact" 
+          className={styles.ctaButton}
+          aria-label="Contact our safari experts"
+        >
           Contact Our Safari Experts
-        </button>
+        </Link>
       </section>
     </main>
   );
