@@ -1,0 +1,108 @@
+@use '../styles/base/variables' as *;
+
+.wildlifePage {
+  background-color: #f9f9f7;
+}
+
+/* Hero Banner */
+.heroBanner {
+  position: relative;
+  height: 70vh;
+  min-height: 500px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), 
+    url('/images/safari-hero.jpg') center/cover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 4rem;
+
+  .heroContent {
+    max-width: 800px;
+    padding: 0 2rem;
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: $color-white;
+
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      opacity: 0.9;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+/* Content Wrapper */
+.contentWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+
+  @media (max-width: 768px) {
+    padding: 0 1rem 2rem;
+  }
+}
+
+/* CTA Section */
+.ctaSection {
+  background-color: $color-primary;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: $color-white;
+
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+}
+
+.ctaButton {
+  background-color: $button-color;
+  color: $color-white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: darken($button-color, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .heroBanner {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  .ctaSection {
+    padding: 3rem 1rem;
+  }
+}
