@@ -127,7 +127,7 @@ const DayTripsPage = () => {
 
       {/* Custom Trip CTA */}
       <section className={styles.customTrip}>
-        <h2>Don't See Your Perfect Trip?</h2>
+        <h2>Don&apos;t See Your Perfect Trip?</h2>
         <p>We customize private day excursions</p>
         <Link href="/contact" className={styles.ctaButton}>
           Request Custom Itinerary

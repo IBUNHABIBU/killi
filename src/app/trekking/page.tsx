@@ -9,7 +9,7 @@ const Page = () => {
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
-            Discover <span>Tanzania's</span> Wonders
+            Discover <span>Tanzania&apos;s</span> Wonders
           </h1>
           <p className={styles.heroSubtitle}>
             Authentic adventures with Kilihappy Tanzania
