@@ -59,7 +59,7 @@ const Navigation = () => {
                 href={item.path}
                 className={styles.navigation__link}
                 onClick={() => setMobileMenuOpen(false)}
-                aria-current={pathname === item.path ? 'page' : undefined}
+                aria-current={pathname === item.path ? 'page' : undefined }
               >
                 {item.name}
               </Link>

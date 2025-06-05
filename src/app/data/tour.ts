@@ -257,6 +257,56 @@ export const wildlife: Tour[] = [
       // ... other days
     ]
   },
-    
+      {
+    id: '2-days-1-ninght-safary-to-tarangire',
+    title: '2 DAYS 1 NIGHT SAFARI TO TARANGIRE NATIONAL PARK AND NGORONGORO CRATER: PRIVATE SAFARI ',
+    slug: '2-days-1-ninght-safary-to-tarangire',
+    duration: '2 days 1 night',
+    difficulty: 'Moderate',
+    image: '/images/package3.jpg',
+    highlights: [
+      "seeing amazing animals", 
+    ],
+   includedItems: [
+    "All park fees",
+    "Accommodation (full board)",
+    "Guide fees",
+    "Meals (breakfast, lunch, and dinner)",
+    "Safari Cruiser",
+    "Drinking water",
+    "Transportation",
+    "Flight tickets (from Zanzibar)",
+    "Professional English guide"
+   ],
+    excludedItems: [
+      
+    ],
+
+    description: ``, // Full description
+    itinerary: [
+      {
+        day: 1,
+        title: '',
+        content: ''
+      },
+      {
+        day: 2,
+        title: '',
+        content: ''
+      },
+      {
+        day: 3,
+        title: "",
+        content: ""
+      },
+      {
+        day: 4,
+        title: "",
+        content: ""
+      },
+     
+      // ... other days
+    ]
+  },
   // ... other tours
 ];
