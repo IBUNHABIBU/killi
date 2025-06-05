@@ -1,11 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './daytrips.module.scss';
-import { title } from 'process';
-import { dayTrips } from '../data/tour';
-import TourCard from '../components/UpcomingTours/TourCard';
+import { dayTrips, Tour } from '../data/tour';
 
-const DayTripsPage = () => {
+interface TourCardProps {
+  tour: Tour;
+}
+
+const DayTripsPage = ({ tour }: TourCardProps) => {
 
   return (
     <main className={styles.dayTripsPage}>
@@ -25,7 +27,7 @@ const DayTripsPage = () => {
         </div>
 
         <div className={styles.grid}>
-          {/* {dayTrips.map((trip) => (
+          {dayTrips.map((trip) => (
             <div key={trip.id} className={styles.tripCard}>
               <div className={styles.imageContainer}>
                 <img 
@@ -46,21 +48,14 @@ const DayTripsPage = () => {
                   ))}
                 </ul>
                 <Link 
-                  href='/contact' 
+                  href={`/trips/${tour.slug}`}
                   className={styles.bookButton}
                 >
                   Book This Trip
                 </Link>
               </div>
             </div>
-          ))} */}
-            {dayTrips.map((tour) => (
-                    <TourCard 
-                      key={tour.id}
-                      tour={tour}
-                      className={tour.id === 'marangu-route' ? styles.featuredCard : ''}
-                    />
-                  ))}
+          ))}
         </div>
       </section>
 
