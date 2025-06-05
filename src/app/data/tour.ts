@@ -293,7 +293,7 @@ export const wildlife: Tour[] = [
       },
       {
         day: 2,
-        title: '',
+        title: 'Tarangire national park ',
         content: ''
       },
       {
