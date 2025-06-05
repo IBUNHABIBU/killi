@@ -72,6 +72,65 @@ const DayTripsPage = () => {
       // ... other days
     ]
   },
+  {
+    id: '6-days-tanzania-explorer-safari',
+    title: '6 Days Tanzania Explorer Safari',
+    slug: '6-days-tanzania-explorer-safari',
+    duration: '6 Days ',
+    difficulty: 'Moderate',
+    image: '/images/package3.jpg',
+    highlights: [
+      "Big Five & Rare Wildlife: Spot all Big Five in Serengeti and Ngorongoro, plus tree-climbing lions and flamingos in Lake Manyara.",
+      "Diverse Scenic Landscapes: Experience everything from Tarangire’s baobab-studded terrain to the vast Serengeti plains and the breathtaking Ngorongoro Crater.",
+      "Authentic Camping Adventure: Enjoy nights under the stars in dome tents at public campsites with all meals and immersive safari activities included."
+    ],
+   includedItems: [
+  "Professional, English-speaking guide",
+  "Mountain crew (cook & porters)",
+  "Overnight stays in hotels and mountain huts",
+  "Meals according to the itinerary",
+  "Drinking water",
+  "All national park fees",
+  "All mentioned transfers",
+   ],
+    excludedItems: [
+      "Sleeping bag",
+      "Flights",
+      "Alcoholic and soft drinks",
+      "Visa fees",
+      "Tips",
+      "Personal spending money for souvenirs etc.",
+      "Travel insurance"
+    ],
+
+    description: `This tour package will give one an exciting opportunity to visit the most beautiful parks in northern Tanzania. This includes visiting the endless plains of Serengeti National Park where you will be able to see all the big five. You will also visit Tarangire National park which is famous for a huge population of elephants and also the Ngorongoro Crater which is locally known as the garden of animals where there is a big chance to spot the big five in one day and finally you will end your safari on the beautiful shores of Lake Manyara which is famous for its flamingoes and tree climbing lions which are unique to this region.
+
+In this option, you will stay in public campsites, located inside (For Serengeti / Ngorongoro) or outside the park ( For Lake Manyara / Tarangire). Accommodation will be in waterproof 2-person-tents (2.5m x 2.5m and 1.8m high) with built-in mosquito nets at the entrances and windows. The dome tents will be pitched overnight at the public campsite and packed in the morning. You will be sleeping on foam mattress and will have access to shared public bathrooms and toilets. Please check the camping pictures above for reference.`, // Full description
+    itinerary: [
+      {
+        day: 1,
+        title: 'ARUSHA TO TARANGIRE NATIONAL PARK.',
+        content: ''
+      },
+      {
+        day: 2,
+        title: 'NGORONGORO CRATER.',
+        content: ''
+      },
+      {
+        day: 3,
+        title: "SERENGETI NATIONAL PARK.",
+        content: ""
+      },
+      {
+        day: 4,
+        title: " SERENGETI NATIONAL PARK TO ARUSHA. ",
+        content: ""
+      },
+     
+      // ... other days
+    ]
+  },
     // Add more day trips...
   ];
 
