@@ -310,15 +310,15 @@ export const wildlife: Tour[] = [
       "seeing amazing animals", 
     ],
    includedItems: [
+    "Accommodation",
+    "Private safari car",
+    "Professional guide",
+    "All meals and drinks",
+    "Game drive",
+    "Entrance fees",
+    "Government tax",
     "All park fees",
-    "Accommodation (full board)",
-    "Guide fees",
-    "Meals (breakfast, lunch, and dinner)",
-    "Safari Cruiser",
-    "Drinking water",
-    "Transportation",
-    "Flight tickets (from Zanzibar)",
-    "Professional English guide"
+    "Masai Tour"
    ],
     excludedItems: [
       "Tips for the guide",
