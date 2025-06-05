@@ -299,5 +299,47 @@ export const wildlife: Tour[] = [
       // ... other days
     ]
   },
+  {
+    id: '4-days-4-ninght-arusha--tarangire',
+    title: '5 Days 4 Nights Safari from Arusha (private) Tarangire, Serengeti, Ngorongoro. ',
+    slug: '4-days-4-ninght-safary-arusha-to-tarangire',
+    duration: '4 days 4 night',
+    difficulty: 'Moderate',
+    image: '/images/package3.jpg',
+    highlights: [
+      "seeing amazing animals", 
+    ],
+   includedItems: [
+    "All park fees",
+    "Accommodation (full board)",
+    "Guide fees",
+    "Meals (breakfast, lunch, and dinner)",
+    "Safari Cruiser",
+    "Drinking water",
+    "Transportation",
+    "Flight tickets (from Zanzibar)",
+    "Professional English guide"
+   ],
+    excludedItems: [
+      "Tips for the guide",
+      "Items of personal use"
+    ],
+
+    description: `Experience a thrilling 2-day private safari through Tarangire National Park and the Ngorongoro Crater, featuring close encounters with elephants, lions, and the iconic Big Five. Enjoy game drives, scenic landscapes, and overnight lodge accommodation in Karatu for an unforgettable adventure.
+`, // Full description
+    itinerary: [
+      {
+        day: 1,
+        title: 'Tarangire national park ',
+        content: 'Pick up from your hotel in Arusha in the morning and enjoy a scenic drive to Tarangire National Park, renowned for its large elephant herds and iconic baobab trees. Upon arrival, embark on an exhilarating game drive, spotting wildlife such as lions, zebras, and various bird species. You will have a packed lunch surrounded by the beautiful landscapes of the park. Continue your afternoon adventure, observing more wildlife and enjoying the stunning scenery. As the sun sets, watch for nocturnal animals beginning to emerge. After a full day of exploration, check out and drive to a cozy lodge in Karatu for dinner and an overnight stay, where you can relax and recount the day\'s adventures.'
+      },
+      {
+        day: 2,
+        title: 'Ngorongoro crater ',
+        content: 'After a hearty breakfast at the lodge, depart for Ngorongoro Crater, a UNESCO World Heritage Site and one of the best places to see the "Big Five." Enjoy the breathtaking views as you descend into the crater, home to diverse wildlife. Spend the morning exploring, with opportunities to observe lions, elephants, buffalo, leopards, and rhinos up close. Enjoy a picnic lunch at the hippo pool picnic area, watching hippos while you eat. In the afternoon, continue your game drive, taking in the stunning landscapes framed by the crater walls. As the day winds down, ascend back out of the crater and return to Arusha, concluding your safari adventure.'
+      },
+      // ... other days
+    ]
+  },
   // ... other tours
 ];
