@@ -288,12 +288,12 @@ export const wildlife: Tour[] = [
     itinerary: [
       {
         day: 1,
-        title: '',
-        content: ''
+        title: 'Tarangire national park ',
+        content: 'Pick up from your hotel in Arusha in the morning and enjoy a scenic drive to Tarangire National Park, renowned for its large elephant herds and iconic baobab trees. Upon arrival, embark on an exhilarating game drive, spotting wildlife such as lions, zebras, and various bird species. You will have a packed lunch surrounded by the beautiful landscapes of the park. Continue your afternoon adventure, observing more wildlife and enjoying the stunning scenery. As the sun sets, watch for nocturnal animals beginning to emerge. After a full day of exploration, check out and drive to a cozy lodge in Karatu for dinner and an overnight stay, where you can relax and recount the day\'s adventures.'
       },
       {
         day: 2,
-        title: 'Tarangire national park ',
+        title: '',
         content: ''
       },
       {
