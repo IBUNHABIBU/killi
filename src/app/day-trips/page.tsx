@@ -157,13 +157,16 @@ In this option, you will stay in public campsites, located inside (For Serengeti
     ]
   },
     {
-    id: '6-days-tanzania-explorer-safari',
-    title: '6 Days Tanzania Explorer Safari',
-    slug: '6-days-tanzania-explorer-safari',
-    duration: '6 Days ',
+    id: '4-days-sharing-camping-budget-safari',
+    title: '4 DAYS SHARING CAMPING BADGET SAFARI TO TARANGIRE, SERENGETI NATIONAL PARK, NGORONGORO CRATER ',
+    slug: '4-days-sharing-camping-budget-safari',
+    duration: '4 Days ',
     difficulty: 'Moderate',
     image: '/images/package3.jpg',
     highlights: [
+        "Experience close encounters with large herds of elephants in Tarangire National Park, home to over 550 bird species and iconic baobab landscapes.",
+        "Explore the vast Serengeti plains and witness the Big Five along with the seasonal great migration of thousands of wildebeest and zebras.",
+        "Descend into the Ngorongoro Crater, the world’s largest unbroken caldera, and enjoy game drives surrounded by over 25,000 animals including rare black rhinos."
     ],
    includedItems: [
   
