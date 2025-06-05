@@ -48,7 +48,7 @@ const DayTripsPage = ({ tour }: TourCardProps) => {
                   ))}
                 </ul>
                 <Link 
-                  href={`/trips/${tour.slug}`}
+                  href={`/trips/${trip.slug}`}
                   className={styles.bookButton}
                 >
                   Book This Trip

@@ -359,7 +359,7 @@ export const wildlife: Tour[] = [
   // ... other tours
 ];
 
-export  const dayTrips = [
+export  const dayTrips: Tour[] = [
     {
       id: 1,
       title: "Serengeti National Park",
