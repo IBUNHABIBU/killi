@@ -293,8 +293,8 @@ export const wildlife: Tour[] = [
       },
       {
         day: 2,
-        title: '',
-        content: ''
+        title: 'Ngorongoro crater ',
+        content: 'After a hearty breakfast at the lodge, depart for Ngorongoro Crater, a UNESCO World Heritage Site and one of the best places to see the "Big Five." Enjoy the breathtaking views as you descend into the crater, home to diverse wildlife. Spend the morning exploring, with opportunities to observe lions, elephants, buffalo, leopards, and rhinos up close. Enjoy a picnic lunch at the hippo pool picnic area, watching hippos while you eat. In the afternoon, continue your game drive, taking in the stunning landscapes framed by the crater walls. As the day winds down, ascend back out of the crater and return to Arusha, concluding your safari adventure.'
       },
       {
         day: 3,
