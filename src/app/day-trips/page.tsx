@@ -81,9 +81,9 @@ const DayTripsPage = () => {
     difficulty: 'Moderate',
     image: '/images/package3.jpg',
     highlights: [
-      "Big Five & Rare Wildlife: Spot all Big Five in Serengeti and Ngorongoro, plus tree-climbing lions and flamingos in Lake Manyara.",
-      "Diverse Scenic Landscapes: Experience everything from Tarangire’s baobab-studded terrain to the vast Serengeti plains and the breathtaking Ngorongoro Crater.",
-      "Authentic Camping Adventure: Enjoy nights under the stars in dome tents at public campsites with all meals and immersive safari activities included."
+      "Spot all Big Five in Serengeti and Ngorongoro, plus tree-climbing lions and flamingos in Lake Manyara.",
+      "Experience everything from Tarangire’s baobab-studded terrain to the vast Serengeti plains and the breathtaking Ngorongoro Crater.",
+      "Enjoy nights under the stars in dome tents at public campsites with all meals and immersive safari activities included."
     ],
    includedItems: [
     "Airport transfer",
@@ -210,10 +210,14 @@ Descend into the Ngorongoro Crater for incredible wildlife viewing before return
       },
       {
         day: 3,
-        title: "Tarangire to Serengeti National Park",
-        content: "",
-        accomodation: ''
+        title: "Serengeti National Park – Ngorongoro Conservation Area",
+        content: "After breakfast you join another game drive in the Serengeti National Park. This morning you might spot animals you haven’t seen yet. The Serengeti is also home to the Big Five – lion, elephant, buffalo, rhino and leopard – and today you might be able to see all the members of this group. After lunch at a picnic site, you will drive in direction of the Ngorongoro Crater. As soon as you have reached the edge of the crater, the caldera opens up before you. Over 25,000 animals live in this approximately 20 km wide crater. You will spend the night and dinner at a Simba Campsite directly on the crater’s edge with fantastic views over the caldera.",
       },
+      {
+        day: 4,
+        title: 'Ngorongoro Crater – Arusha',
+        content: 'Rise and shine! After breakfast at daybreak, you drive down into the crater with packed lunch. Inside the world’s largest caldera, you will see a diversity of wildlife ranging from black rhinos, Grant’s and Thomson’s gazelles, lions and leopards to elephants and mountain reedbucks in the forests on the slopes. You might also see buffaloes, spotted hyenas, rare wild dogs and some of the more than 500 bird species of the area. After an intensive game drive and a picnic lunch, you will leave the caldera in late afternoon then drive to Arusha. '
+      }
      
      
       // ... other days
