@@ -279,10 +279,12 @@ export const wildlife: Tour[] = [
     "Professional English guide"
    ],
     excludedItems: [
-      
+      "Tips for the guide",
+      "Items of personal use"
     ],
 
-    description: ``, // Full description
+    description: `Experience a thrilling 2-day private safari through Tarangire National Park and the Ngorongoro Crater, featuring close encounters with elephants, lions, and the iconic Big Five. Enjoy game drives, scenic landscapes, and overnight lodge accommodation in Karatu for an unforgettable adventure.
+`, // Full description
     itinerary: [
       {
         day: 1,
