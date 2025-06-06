@@ -1,13 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './daytrips.module.scss';
-import { dayTrips, Tour } from '../data/tour';
+import { dayTrips } from '../data/tour';
+import Image from 'next/image';
 
-interface TourCardProps {
-  tour: Tour;
-}
 
-const DayTripsPage = ({ tour }: TourCardProps) => {
+const DayTripsPage = () => {
 
   return (
     <main className={styles.dayTripsPage}>
@@ -30,7 +28,7 @@ const DayTripsPage = ({ tour }: TourCardProps) => {
           {dayTrips.map((trip) => (
             <div key={trip.id} className={styles.tripCard}>
               <div className={styles.imageContainer}>
-                <img 
+                <Image 
                   src={trip.image} 
                   alt={trip.title}
                   className={styles.tripImage}
