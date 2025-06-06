@@ -49,7 +49,7 @@ const DayTripsPage = ({ tour }: TourCardProps) => {
                 </ul>
                 <Link 
                   href={`/trips/${trip.slug}`}
-                  className={styles.cta}
+                  className={styles.bookButton}
                 >
                   See details
                 </Link>
