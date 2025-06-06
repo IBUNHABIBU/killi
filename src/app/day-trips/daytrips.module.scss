@@ -163,7 +163,16 @@
 }
 
 .cta {
-  
+  display: inline-block;
+  margin-top: 1rem;
+  color: $button-color;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $button-color;
+  }
 }
 
 /* Custom Trip CTA */
