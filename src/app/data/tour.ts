@@ -13,6 +13,7 @@ export interface Tour {
     day: number;
     title: string;
     content: string;
+    accomodation?: string;
   }[];
 }
 
@@ -360,18 +361,46 @@ export const wildlife: Tour[] = [
 ];
 
 export  const dayTrips: Tour[] = [
-    {
-      id: 1,
-      title: "Serengeti National Park",
-      image: "/images/nationalpark.jpg",
-      duration: "6-8 hours",
-      highlights: [
-         "Enjoy an exciting game drive offering breathtaking views of Mount Meru rising above the surrounding savannah landscape.",
-          "Discover the serene beauty of Momella Lakes, known for their stunning colors and diverse bird species.",
-          "Witness majestic giraffes and strikingly patterned zebras up close as they roam freely through their natural environment."
+//     {
+//       id: "serengeti-national-park",
+//       slug: "serengeti-national-park",
+//       title: "Serengeti National Park",
+//       image: "/images/nationalpark.jpg",
+//       duration: "6-8 hours",
+//       difficulty: 'Moderate',
+//       highlights: [
+//          "Enjoy an exciting game drive offering breathtaking views of Mount Meru rising above the surrounding savannah landscape.",
+//           "Discover the serene beauty of Momella Lakes, known for their stunning colors and diverse bird species.",
+//           "Witness majestic giraffes and strikingly patterned zebras up close as they roam freely through their natural environment."
+//       ], 
+      
+//    includedItems: [
+//   "Professional, English-speaking guide",
+//   "Drinking water",
+//   "All national park fees",
+//   "All mentioned transfers",
+//    ],
+//     excludedItems: [
+//       "Sleeping bag",
+//       "Flights",
+//       "Alcoholic and soft drinks",
+//       "Visa fees",
+//       "Tips",
+//       "Personal spending money for souvenirs etc.",
+//       "Travel insurance"
+//     ],
 
-      ],
-    },
+//     description: `Serengeti National Park offers a thrilling 6–8 hour moderate adventure through breathtaking savannah landscapes. Visitors can enjoy scenic views of Mount Meru, vibrant Momella Lakes, and encounter giraffes and zebras up close.**
+// `, // Full description
+//     itinerary: [
+//       {
+//         day: 1,
+//         title: '',
+//         content: ''
+//       },
+//       // ... other days
+//     ]
+//     },
   {
     id: '4days-camping-safari',
     title: 'Ngorongoro National Park ',
@@ -576,7 +605,6 @@ Descend into the Ngorongoro Crater for incredible wildlife viewing before return
         title: 'Ngorongoro Crater – Arusha',
         content: 'Rise and shine! After breakfast at daybreak, you drive down into the crater with packed lunch. Inside the world’s largest caldera, you will see a diversity of wildlife ranging from black rhinos, Grant’s and Thomson’s gazelles, lions and leopards to elephants and mountain reedbucks in the forests on the slopes. You might also see buffaloes, spotted hyenas, rare wild dogs and some of the more than 500 bird species of the area. After an intensive game drive and a picnic lunch, you will leave the caldera in late afternoon then drive to Arusha. '
       }
-     
      
       // ... other days
     ]

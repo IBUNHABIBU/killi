@@ -11,6 +11,7 @@ const UpcomingTours = () => {
             key={tour.id}
             tour={tour}
             className={tour.id === 'marangu-route' ? styles.featuredCard : ''}
+            slagpath='tours'
           />
         ))}
       </div>

@@ -11,6 +11,7 @@ const WildLifeSafari = () => {
             key={tour.id}
             tour={tour}
             className={tour.id === 'marangu-route' ? styles.featuredCard : ''}
+            slagpath='wisafari'
           />
         ))}
       </div>

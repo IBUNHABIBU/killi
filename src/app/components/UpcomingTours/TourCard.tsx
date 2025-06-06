@@ -5,9 +5,10 @@ import { Tour } from '@/app/data/tour';
 interface TourCardProps {
   tour: Tour;
   className?: string;
+  slagpath: string;
 }
 
-const TourCard = ({ tour, className }: TourCardProps) => {
+const TourCard = ({ tour, className, slagpath}: TourCardProps) => {
   return (
     <article className={`${styles.card} ${className || ''}`}>
       <div 
@@ -26,7 +27,7 @@ const TourCard = ({ tour, className }: TourCardProps) => {
         </ul>
 
         <Link 
-          href={`/tours/${tour.slug}`}
+          href={`/${slagpath}/${tour.slug}`}
           className={styles.cta}
         >
           View Details →
