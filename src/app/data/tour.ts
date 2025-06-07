@@ -68,7 +68,7 @@ export const upcomingTours: Tour[] = [
     slug: 'machame-route',
     duration: '7 Days',
     difficulty: 'Challenging',
-    image: '/images/package2.jpg',
+    image: '/images/kilipeak.jpeg',
     highlights: [
       "Popular and scenic route",
       "High summit success rate",
@@ -109,7 +109,7 @@ export const upcomingTours: Tour[] = [
     slug: 'lemosho-route',
     duration: '8 Days',
     difficulty: 'Moderate',
-    image: '/images/package3.jpg',
+    image: '/images/uhurupeople.jpeg',
     highlights: [
       "Remote and less crowded",
       "High success rate due to acclimatization time",
@@ -264,7 +264,7 @@ export const wildlife: Tour[] = [
     slug: '2-days-1-ninght-safary-to-tarangire',
     duration: '2 days 1 night',
     difficulty: 'Moderate',
-    image: '/images/package3.jpg',
+    image: '/images/package2.jpg',
     highlights: [
       "seeing amazing animals", 
     ],
@@ -306,7 +306,7 @@ export const wildlife: Tour[] = [
     slug: '4-days-4-ninght-safary-arusha-to-tarangire',
     duration: '4 days 4 night',
     difficulty: 'Moderate',
-    image: '/images/package3.jpg',
+    image: '/images/package2.jpg',
     highlights: [
       "seeing amazing animals", 
       "USD $1600 per person from Arusha. Private safari "
