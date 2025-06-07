@@ -264,7 +264,7 @@ export const wildlife: Tour[] = [
     slug: '2-days-1-ninght-safary-to-tarangire',
     duration: '2 days 1 night',
     difficulty: 'Moderate',
-    image: '/images/package2.jpg',
+    image: '/images/roadlion.jpeg',
     highlights: [
       "seeing amazing animals", 
     ],
@@ -306,7 +306,7 @@ export const wildlife: Tour[] = [
     slug: '4-days-4-ninght-safary-arusha-to-tarangire',
     duration: '4 days 4 night',
     difficulty: 'Moderate',
-    image: '/images/package2.jpg',
+    image: '/images/cars.jpeg',
     highlights: [
       "seeing amazing animals", 
       "USD $1600 per person from Arusha. Private safari "
@@ -466,7 +466,7 @@ export  const dayTrips: Tour[] = [
     slug: '6-days-tanzania-explorer-safari',
     duration: '6 Days ',
     difficulty: 'Moderate',
-    image: '/images/package3.jpg',
+    image: '/images/carandgirl.jpeg',
     highlights: [
       "Spot all Big Five in Serengeti and Ngorongoro, plus tree-climbing lions and flamingos in Lake Manyara.",
       "Experience everything from Tarangire’s baobab-studded terrain to the vast Serengeti plains and the breathtaking Ngorongoro Crater.",
@@ -549,7 +549,7 @@ In this option, you will stay in public campsites, located inside (For Serengeti
     slug: '4-days-sharing-camping-budget-safari',
     duration: '4 Days ',
     difficulty: 'Moderate',
-    image: '/images/package3.jpg',
+    image: '/images/cargirls.jpeg',
     highlights: [
         "Experience close encounters with large herds of elephants in Tarangire National Park, home to over 550 bird species and iconic baobab landscapes.",
         "Explore the vast Serengeti plains and witness the Big Five along with the seasonal great migration of thousands of wildebeest and zebras.",
