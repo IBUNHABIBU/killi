@@ -36,7 +36,7 @@ export const ToursSection = () => {
             Where Every Journey Becomes a Story
           </p>
           <p className={styles.description}>
-            Stand at the gates of the legendary Serengeti. Conquer the summit of Mount Kilimanjaro. Witness zebras roaming wild and free. At Kilihappy, we take you beyond the ordinary—into the heart of Tanzania&apos;s breathtaking landscapes and unforgettable wildlife experiences.
+            Stand at the gates of the legendary Serengeti. Conquer the summit of Mount Kilimanjaro. Witness zebras roaming wild and free. At Kiboma tours, we take you beyond the ordinary—into the heart of Tanzania&apos;s breathtaking landscapes and unforgettable wildlife experiences.
           </p>
           <button className={styles.button} onClick={scrollToSpecialOffers}>
             Explore Our Offers

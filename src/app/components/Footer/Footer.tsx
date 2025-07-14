@@ -65,10 +65,10 @@ export default function Footer() {
             <p>2560 Olasiti Street</p>
             <p>Arusha, Tanzania</p>
             <p>
-              <a href="tel:+255123456789">+255 658 571 653</a>
+              <a href="tel:+255123456789">+255 745 xx xxx</a>
             </p>
             <p>
-              <a href="mailto:info@killihappyadventures.com">kilihappytanzaniaadventure@gmail.com</a>
+              <a href="mailto:info@kibomatours.com">kibomatours.xxxx</a>
             </p>
           </address>
         </div>
@@ -92,7 +92,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className={styles.copyright}>
-        <p>&copy; {new Date().getFullYear()} Killihappy Adventures. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Kiboma tours. All rights reserved.</p>
         <div className={styles.legalLinks}>
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms of Service</Link>
