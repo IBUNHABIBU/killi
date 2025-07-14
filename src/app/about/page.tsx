@@ -31,7 +31,7 @@ export default function AboutPage() {
           <div className={styles.content}>
             <h2>Who We Are</h2>
             <p>
-              Founded in 2010, Killihappy Adventures began as a small team of safari guides with a shared passion for Tanzania&apos;s 
+              Kiboma Tour Company Limited is a locally owned tour operator based in Tanzania, dedicated to showcasing the breathtaking beauty of our land through unforgettable experiences
               breathtaking landscapes and rich cultural heritage. What started as a humble operation has grown into a premier 
               adventure company, known for creating unforgettable experiences.
             </p>
