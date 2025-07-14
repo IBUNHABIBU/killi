@@ -11,7 +11,7 @@ export default function ContactInfo() {
         <FaMapMarkerAlt className={styles.icon} />
         <div>
           <h3>Address</h3>
-          <p>2560 Olasiti Street, Arusha, Tanzania</p>
+          <p>2xx0 Olasiti Street, Arusha, Tanzania</p>
         </div>
       </div>
 
@@ -19,7 +19,7 @@ export default function ContactInfo() {
         <FaPhone className={styles.icon} />
         <div>
           <h3>Phone</h3>
-          <p>+255 658 571 653</p>
+          <p>+255 653 xxx xxx</p>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ export default function ContactInfo() {
         <FaEnvelope className={styles.icon} />
         <div>
           <h3>Email</h3>
-          <p>kilihappytanzaniaadventure@gmail.com</p>
+          <p>info@kibomatours.xxxx</p>
         </div>
       </div>
 
