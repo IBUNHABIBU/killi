@@ -21,7 +21,7 @@ export default function AboutPage() {
         </div>
         <div className={styles.heroContent}>
           <h1>Our Story</h1>
-          <p>Discover the passion behind Killihappy Adventures</p>
+          <p>Discover the passion behind Kiboma tours</p>
         </div>
       </section>
 
@@ -36,8 +36,7 @@ export default function AboutPage() {
               adventure company, known for creating unforgettable experiences.
             </p>
             <p>
-              Our name &quot;Killihappy&quot; comes from the Swahili word &quot;Kili&quot; (short for Kilimanjaro) and our mission to create 
-              happiness through travel. Every journey with us is designed to connect you deeply with Tanzania&apos;s natural wonders.
+              From the majestic peaks of Mount Kilimanjaro to the wild plains of the Serengeti, and the rich cultures of local communities — we specialize in mountain climbing, wildlife safaris, and cultural tours tailored to your dreams.
             </p>
           </div>
           <div className={styles.imageWrapper}>
@@ -118,21 +117,21 @@ export default function AboutPage() {
           <div className={styles.teamGrid}>
             {[
               {
-                name: "Juma Mbeki",
+                name: "Omari Ching'weeng'wee",
                 role: "Founder & Head Guide",
-                image: "/images/faru.jpg",
-                bio: "Born in Arusha, Juma has 20+ years of guiding experience across East Africa."
+                image: "/images/omi.png",
+                bio: "Born in Arusha, Omari has 20+ years of guiding experience across East Africa."
               },
               {
-                name: "Neema Johnson",
+                name: "Kefa Mduku",
                 role: "Operations Manager",
-                image: "/images/faru.jpg",
+                image: "/images/kefa.png",
                 bio: "Ensures every detail of your journey is perfectly arranged."
               },
               {
-                name: "Thomas Mushi",
+                name: "Jeremy Lymo",
                 role: "Senior Safari Guide",
-                image: "/images/faru.jpg",
+                image: "/images/lymo.png",
                 bio: "Wildlife expert with unparalleled knowledge of animal behavior."
               }
             ].map((member, index) => (
