@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.footerContainer}>
         {/* About Section */}
         <div className={styles.footerSection}>
-          <h3 className={styles.footerHeading}>About Killihappy</h3>
+          <h3 className={styles.footerHeading}>About Kiboma tours</h3>
           <p className={styles.footerText}>
             We specialize in creating unforgettable safari experiences in Tanzania, 
             offering wildlife adventures, mountain climbing, and cultural tours.
