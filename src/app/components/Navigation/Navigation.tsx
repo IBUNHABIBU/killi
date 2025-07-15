@@ -23,8 +23,8 @@ const Navigation = () => {
   ];
 
    const socialMedia = [
-    { id: 1, icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61554214025733" },
-    { id: 3, icon: <FaInstagram />, url: "https://www.instagram.com/kilihappy_tanzania_adventures/" },
+    { id: 1, icon: <FaFacebookF />, url: "https://www.linkedin.com/in/salum-habibu/" },
+    { id: 3, icon: <FaInstagram />, url: "https://www.linkedin.com/in/salum-habibu/" },
     ];
 
   return (
