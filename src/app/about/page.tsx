@@ -119,7 +119,7 @@ export default function AboutPage() {
               {
                 name: "Omari Ching'weeng'wee",
                 role: "Founder & Head Guide",
-                image: "/images/omi.png",
+                image: "/images/omi.jpeg",
                 bio: "Born in Arusha, Omari has 20+ years of guiding experience across East Africa."
               },
               {
