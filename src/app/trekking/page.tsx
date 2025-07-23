@@ -12,7 +12,7 @@ const Page = () => {
             Discover <span>Tanzania&apos;s</span> Wonders
           </h1>
           <p className={styles.heroSubtitle}>
-            Authentic adventures with Kilihappy Tanzania
+            Authentic adventures with Kiboma Tours Tanzania
           </p>
         </div>
       </section>
