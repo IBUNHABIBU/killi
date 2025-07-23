@@ -65,7 +65,7 @@ export default function Footer() {
             <p>25xx Olasiti Street</p>
             <p>Arusha, Tanzania</p>
             <p>
-              <a href="tel:+255123456789">+255 745 xx xxx</a>
+              <a href="tel:+255123456xx9">+255 745 xx xxx</a>
             </p>
             <p>
               <a href="mailto:info@kibomatours.com">kibomatours.xxxx</a>
