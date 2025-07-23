@@ -62,7 +62,7 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h3 className={styles.footerHeading}>Contact Us</h3>
           <address className={styles.contactInfo}>
-            <p>2560 Olasiti Street</p>
+            <p>25xx Olasiti Street</p>
             <p>Arusha, Tanzania</p>
             <p>
               <a href="tel:+255123456789">+255 745 xx xxx</a>
