@@ -19,7 +19,6 @@ const Page = () => {
 
       {/* Upcoming Tours Section */}
       <section className={styles.toursSection}>
-        
         <UpcomingTours />
       </section>
     </main>
