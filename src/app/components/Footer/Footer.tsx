@@ -68,7 +68,7 @@ export default function Footer() {
               <a href="tel:+255123456xx9">+255 745 xx xxx</a>
             </p>
             <p>
-              <a href="mailto:info@kibomatours.com">kibomatours.xxxx</a>
+              <a href="mailto:info@kibomatours.cxxx">kibomatours.xxxx</a>
             </p>
           </address>
         </div>
